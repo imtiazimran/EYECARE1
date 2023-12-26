@@ -1,40 +1,63 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 /* eslint-disable react-refresh/only-export-components */
 
 import ImageHeart from "./Images/Nav/Union.svg";
 import ImageCart from "./Images/Nav/Group 2980.svg";
 import BellImage from "./Images/Nav/Bell_icon.svg";
 import Profile from "./Images/Nav/man.svg";
-import Camera from "./Images/Nav/Group 3154.svg";
+
 import Man from "./Images/Slide/Rectangle 2805.png";
 import BUY from "./Images/Slide/Rectangle 2806.png";
 
 import Girl from "./Images/Slide/Rectangle 2807.png";
 
-const NEXTHEADER = () => {
+const NEXTHEADER = ({ MobileselectTab }) => {
+  console.log("MobileselectTab:", MobileselectTab);
+  console.log("MobileselectTab type is", typeof MobileselectTab);
+
   return (
     <>
-      <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white  dark:bg-gray-800  md:dark:bg-gray-900 dark:border-gray-700   sm:hidden ">
-        <li className="flex items-center justify-center border bg-blue-700">
+      <ul className="flex flex-col  md:p-0 mt-4  w-[45vw] font-medium  rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:-0 md:bg-white  dark:bg-gray-800  md:dark:bg-gray-900 dark:-red-700   sm:hidden  bg-gray-300  float-right  h-[75vh] gap-6 z-40    right-0  fixed BlurSideBar">
+        <li className="flex items-center justify-center  ">
           <a
             href="#"
-            className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+            className="block py-2 px-3  rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-700 hover:bg-blue-600 w-full text-center  hover:text-white"
             aria-current="page"
+            onClick={() => {
+              console.log("MobileselectTab type:", typeof MobileselectTab);
+              MobileselectTab("Home");
+              console.log("Rizvi");
+              console.log("mobile Home");
+            }}
           >
             Home
           </a>
         </li>
-        <li className="flex items-center justify-center border ">
+        <li className="flex items-center justify-center  ">
           <a
             href="#"
-            className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+            className="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:-gray-700 
+            hover:bg-blue-600 w-full text-center
+            hover:text-white"
+            onClick={() => {
+              // MobileselectTab("About");
+              console.log("mobile About");
+            }}
           >
-            About
+            <p>About</p>
           </a>
         </li>
-        <li className="flex items-center justify-center border ">
+        <li className="flex items-center justify-center  ">
           <a
             href="#"
-            className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+            className="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:-gray-700
+            hover:bg-blue-600 w-full text-center
+            hover:text-white"
+            onClick={() => {
+              // MobileselectTab("Contact");
+              console.log("Mobile Contact");
+            }}
           >
             Contact
           </a>
@@ -42,13 +65,19 @@ const NEXTHEADER = () => {
         <li>
           <a
             href="#"
-            className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-center"
+            className="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:-gray-700 
+            hover:bg-blue-600 w-full text-center
+            hover:text-white"
+            onClick={() => {
+              // MobileselectTab("Notification");
+              console.log("Mobile Notification");
+            }}
           >
-            <div className="flex items-center justify-center border">
+            <div className="flex items-center justify-center ">
               <img
                 src={BellImage}
                 alt="Description of the image"
-                className="h-1/2 sm:h-3/4"
+                className="h-1/4  "
               />
               <span className="ml-2">Notification</span>
             </div>
@@ -58,9 +87,14 @@ const NEXTHEADER = () => {
         <li>
           <a
             href="#"
-            className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-center"
+            className="block py-2 px-3 text-gray-900 rounded  md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:-gray-700  hover:bg-blue-600 w-full text-center
+            hover:text-white"
+            onClick={() => {
+              // MobileselectTab("Cart");
+              console.log("Mobile Cart");
+            }}
           >
-            <div className="flex items-center justify-center border">
+            <div className="flex items-center justify-center ">
               <img
                 src={ImageCart}
                 alt="Description of the image"
@@ -74,13 +108,18 @@ const NEXTHEADER = () => {
         <li>
           <a
             href="#"
-            className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-center"
+            className="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:-gray-700
+            hover:bg-blue-600 w-full text-center  hover:text-white"
+            onClick={() => {
+              // MobileselectTab("favorit");
+              console.log("Mobile favorit");
+            }}
           >
-            <div className="flex items-center justify-center border">
+            <div className="flex items-center justify-center ">
               <img
                 src={ImageHeart}
                 alt="Description of the image"
-                className="h-1/2 sm:h-3/4"
+                className="h-1/2 sm:h-3/4  "
               />
               <span className="ml-2">favorit</span>
             </div>
@@ -89,9 +128,13 @@ const NEXTHEADER = () => {
         <li>
           <a
             href="#"
-            className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-center"
+            className="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent  hover:bg-blue-600 w-full text-center  hover:text-white"
+            onClick={() => {
+              // MobileselectTab("Profile");
+              console.log("Mobile Profile");
+            }}
           >
-            <div className="flex items-center justify-center border">
+            <div className="flex items-center justify-center ">
               <img
                 src={Profile}
                 alt="Description of the image"
@@ -107,70 +150,7 @@ const NEXTHEADER = () => {
 };
 export default NEXTHEADER;
 
-export const BELOWNAV = () => {
-  return (
-    <nav className="  bg-gray-100 p-4">
-      <div className="container mx-auto flex justify-between items-center ">
-        {/* Hamburger icon for mobile */}
-
-        {/* Navigation links */}
-        <div className="">
-          <ul className=" grid grid-cols-2 sm:flex space-x-4 gap-2   ">
-            <li className=" ml-3 sm:ml-0">
-              <a href="#" className="  hover:text-gray-300">
-                EYEGLASS
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-gray-300">
-                SUNGLASSES
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-gray-300">
-                COMPUTER GLASSES
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-gray-300">
-                CONTACT LENS
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-gray-300">
-                POWERD GLASSES
-              </a>
-            </li>
-            <li>
-              <a href="#" className=" hover:text-gray-300">
-                ACCESSSORIES
-              </a>
-            </li>
-            <li>
-              <a href="#" className=" hover:text-gray-300 font-bold">
-                LUXE
-              </a>
-            </li>
-            <li className=" flex">
-              <a href="#" className="hover:text-gray-300 flex    w-full">
-                <button className=" bg-red-300 px-2   rounded-md   w-auto font-bold">
-                  {" "}
-                  Try on
-                </button>
-
-                <img
-                  src={Camera}
-                  alt="Description of the image"
-                  className=" sm:ml-5 ml-2"
-                />
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  );
-};
+//
 
 //   THIS IS OUR HERO IMAGES SECTION WHERE WE IMPUT THREE IMAGES
 export const HEROIMAGE = () => {
