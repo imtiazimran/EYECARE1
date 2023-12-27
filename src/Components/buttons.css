@@ -1,0 +1,11 @@
+ .stylebtn {
+     display: inline-flex;
+     padding: 7px 32px 6px 32px;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     border-radius: 26.93px;
+     background: #49352E;
+     width: 170px;
+
+ }

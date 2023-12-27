@@ -1,21 +1,34 @@
+/* eslint-disable no-unused-vars */
+import { useState } from "react";
 import "./App.css";
+import NEXTHEADER from "./Components/NextHeader";
+import { BIGSCREENSTORE } from "./Components/Store/BigScreenStore";
+import HOME from "./Components/Home";
+import ABOUT from "./Components/About";
+import CONTACT from "./Components/Contact";
 import NAVBAR from "./Components/Navbar";
-import { BELOWNAV } from "./Components/NextHeader";
-import { HEROIMAGE } from "./Components/NextHeader";
-import SLIDER from "./Components/Slider";
-import Card from "./Components/card";
 function App() {
-  // eslint-disable-next-line no-unused-vars
-
+  const [mobileSelectedTab, setMobileSelectedTab] = useState("Home");
   return (
     <>
-      <div className=" w-full    ">
-        <NAVBAR></NAVBAR>
+      <BIGSCREENSTORE></BIGSCREENSTORE>
+
+      <div>
+        <NEXTHEADER MobileselectTab={setMobileSelectedTab}></NEXTHEADER>
+        {mobileSelectedTab === "Home" ? (
+          <>
+            <BIGSCREENSTORE></BIGSCREENSTORE>
+            {/* <CONTACT></CONTACT>
+            <HOME></HOME> */}
+          </>
+        ) : mobileSelectedTab === "About" ? (
+          <>
+            <ABOUT></ABOUT>
+          </>
+        ) : (
+          <></>
+        )}
       </div>
-      <BELOWNAV></BELOWNAV>
-      <HEROIMAGE></HEROIMAGE>
-      <SLIDER></SLIDER>
-      <Card></Card>
     </>
   );
 }

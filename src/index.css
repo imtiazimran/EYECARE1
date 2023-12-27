@@ -2,11 +2,131 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:ital,wght@1,900&display=swap');
+
 body {
     margin: 10px;
+    background: #F8F4F3;
 }
 
 .hero-color {
 
     background: #ADDAE4;
+}
+
+.middle-image {
+
+    height: 25vh;
+
+    background: #EFE3D7;
+    border-radius: 20px;
+}
+
+.middle-imageCircle {
+    height: 200px;
+    width: 200px;
+    border-radius: 3px;
+}
+
+.middletext {
+    /* font-family: Pacifico;
+    color: #000;
+    font-style: normal;
+    font-weight: 400; */
+    color: #000;
+
+    text-align: center;
+
+    font-family: Pacifico;
+
+}
+
+.stylebtn {
+    border-radius: 50px;
+    border: 1px solid #49352E;
+    color: white;
+    background: #49352E;
+    padding: 2px;
+}
+
+.stylebtn:hover {
+    background-color: #271a09;
+}
+
+.middletext1 {
+    color: #000;
+
+    font-family: Poppins;
+    font-style: italic;
+
+}
+
+/*   IT is  an css for styling  image slider  */
+
+.image-slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.slider-button {
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.slider-image {
+    max-width: 100%;
+    max-height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.About_back {
+    background: #49352E;
+}
+
+.MobileStle {
+    width: 340.124px;
+    height: 126.555px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #EFE3D7;
+}
+
+.textStyle {
+
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: -0.32px;
+    margin-top: 3px;
+}
+
+.buy2get1 {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    /* 131.25% */
+    letter-spacing: -0.32px;
+}
+
+.BlurSideBar {
+    backdrop-filter: blur(15px);
+    /* Adjust the blur amount as needed */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Adjust the alpha channel (last value) for transparency */
+    padding: 20px;
 }

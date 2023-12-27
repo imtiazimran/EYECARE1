@@ -1,27 +1,25 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/no-unknown-property */
 /* eslint-disable react-refresh/only-export-components */
-import { useReducer, useState } from "react";
+/* eslint-disable react/prop-types */
+
+import { useState } from "react";
 import ImageHeart from "./Images/Nav/Union.svg";
 import ImageCart from "./Images/Nav/Group 2980.svg";
 import BellImage from "./Images/Nav/Bell_icon.svg";
 import Profile from "./Images/Nav/man.svg";
 import NEXTHEADER from "./NextHeader";
 
-const NAVBAR = () => {
+const NAVBAR = ({ selectTab }) => {
   const [showComponent, setshowComponent] = useState(false);
   const handleClicked = () => {
     setshowComponent(!showComponent);
   };
 
-  const [selectTab, setselectTab] = useState("Home");
-
   return (
     <>
-      <div className=" ">
-        <nav className="   w-full sm:mt-0 dark:bg-gray-900  ">
+      <div className=" bg-white">
+        <nav className="   w-full sm:mt-0 dark:bg-gray-900 ">
           <div className=" flex flex-wrap  justify-between    sm:p-4  ">
-            {/*  HERE OOUR LOGO DESIGNED  */}
+            {/*  HERE   AND OUR LOGO DESIGNED  */}
             <a
               href="https://flowbite.com/"
               className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -133,14 +131,18 @@ const NAVBAR = () => {
                 />
               </div>
               <ul
-                className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-red-900 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800  md:dark:bg-gray-900 dark:border-gray-700 float-right
+                className="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-gray-800  md:dark:bg-gray-900 dark:border-gray-700 float-right
                "
               >
-                <li>
+                <li className=" ">
                   <a
                     href="#"
-                    className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                    className="block py-2 px-3 rounded md:bg-transparent  md:p-0  
+                     hover:text-blue-700"
                     aria-current="page"
+                    onClick={() => {
+                      selectTab("Home");
+                    }}
                   >
                     Home
                   </a>
@@ -149,19 +151,25 @@ const NAVBAR = () => {
                   <a
                     href="#"
                     className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    onClick={() => {
+                      selectTab("About");
+                    }}
                   >
                     About
                   </a>
                 </li>
-                <li>
+                <li onClick={() => console.log("contact")}>
                   <a
                     href="#"
                     className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    onClick={() => {
+                      selectTab("Contact");
+                    }}
                   >
                     Contact
                   </a>
                 </li>
-                <li>
+                <li className=" ">
                   <a
                     href="#"
                     className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
