@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import Rayban from "./images/footer/image 59.png";
 import Calven from "./images/footer/image 60.png";
 import Titan from "./images/footer/image 61.png";
 
-export const Footer = () => {
+export const Footer = ({ selectedTab }) => {
   return (
     <>
       <div className="sm:w-full  mt-4 bg-white   p-1 sm:pl-3 sm:pt-3  sm:h-[20vh] space-x-4   hidden  sm:block items-center   ">
@@ -71,7 +72,13 @@ export const Footer = () => {
               </p>
             </div>
 
-            <div className="flex">
+            <div
+              className="flex"
+              onClick={(e) => {
+                e.preventDefault();
+                console.log("Afzal khan");
+              }}
+            >
               <p className="mr-1 text-gray-800">
                 <a href="#">Term & condition </a>
               </p>
@@ -149,8 +156,13 @@ export const Footer = () => {
             </li>
             <li>
               <a
-                href="/"
-                className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                href="./button.jsx"
+                className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 bg-red-300"
+                onClick={(e) => {
+                  selectedTab("TermAndCondition");
+                  e.preventDefault();
+                  console.log("Afzal khan");
+                }}
               >
                 Terms &amp; Conditions
               </a>

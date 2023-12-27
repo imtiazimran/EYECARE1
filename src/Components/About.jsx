@@ -1,5 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
-import { BELOWNAV } from "./NextHeader";
+
+import { BELOWNAVIGATION } from "./shopnv";
 import FIRST from "./images/Aboutus/First.png";
 import SECOND from "./images/Aboutus/Second.png";
 
@@ -19,7 +20,8 @@ import { JOBCATEGORIES } from "./card";
 const ABOUT = () => {
   return (
     <>
-      <BELOWNAV></BELOWNAV>
+      <BELOWNAVIGATION></BELOWNAVIGATION>
+
       <div className=" hidden sm:block ">
         <hr className="  bg-black" />
         <div className="justify-evenly">
@@ -113,3 +115,13 @@ const ABOUT = () => {
   );
 };
 export default ABOUT;
+
+export const TermAndCondition = () => {
+  return (
+    <>
+      <div className=" text-center text-3xl ">
+        Term And Condition Are Align here
+      </div>
+    </>
+  );
+};
