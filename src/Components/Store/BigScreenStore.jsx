@@ -8,7 +8,11 @@ import { Bell } from "../bell";
 import { CART } from "../cart";
 import { WISHLIST } from "../cart";
 import { PROFILE } from "../cart";
+<<<<<<< HEAD
 import { HOMESTR } from "./Homestore";
+=======
+// import { HOMESTR } from "./Homestore";
+>>>>>>> bd7281c3ad7191d958a0c3891852f82de7cdf6f8
 // import { BELOWNAVIGATION } from "../shopnv";
 // import { EYEGLASS } from "./ShopProduct";
 export const BIGSCREENSTORE = () => {
@@ -48,10 +52,14 @@ export const BIGSCREENSTORE = () => {
             <CART></CART>
           </>
         ) : (
+<<<<<<< HEAD
           <>
             <HOMESTR></HOMESTR>
             {/* <BELOWNAVIGATION></BELOWNAVIGATION> */}
           </>
+=======
+          <></>
+>>>>>>> bd7281c3ad7191d958a0c3891852f82de7cdf6f8
         )}
       </div>
     </>
