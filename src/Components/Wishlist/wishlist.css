@@ -1,0 +1,32 @@
+.Hero {
+    max-width: 576.001px;
+    max-height: 576px;
+    flex-shrink: 0;
+    background-color: #FFC8D0;
+}
+
+.hero-text {
+    color: #000;
+
+    font-family: Poppins;
+    /* font-size: 30px; */
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero-text1 {
+    color: #000;
+
+    text-align: center;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.myObject {
+    transform: translateZ(100px);
+    /* Adjust the value to move the object farther or closer */
+}
