@@ -8,7 +8,7 @@ import { SRK } from "../card";
 import { SCOCIALMEDIAINFLUNCER } from "../card";
 import { TRENDING } from "../card";
 import { POPULAR } from "../card";
-import { Footer } from "../footer";
+// import { Footer } from "../footer";
 import { FooterImage } from "../Cards";
 import { MobileStyleMe } from "../card";
 import { MOBILEPOPULAR } from "../card";
@@ -30,7 +30,7 @@ export const HOMESTR = () => {
         <TRENDING></TRENDING>
         <POPULAR></POPULAR>
         <FooterImage></FooterImage>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
       </div>
     </>
   );

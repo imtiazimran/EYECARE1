@@ -2,6 +2,7 @@
 
 import { BELOWNAVIGATION } from "./shopnv";
 import { HOMESTR } from "./Store/Homestore";
+// import { Footer } from "./footer";
 const HOME = () => {
   return (
     <>
@@ -9,6 +10,7 @@ const HOME = () => {
         <div>
           <BELOWNAVIGATION></BELOWNAVIGATION>
           <HOMESTR></HOMESTR>
+          {/* <Footer></Footer> */}
         </div>
       </div>
     </>

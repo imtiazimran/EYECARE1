@@ -12,7 +12,7 @@ import FIVE from "./images/Aboutus/Rectangle 2959.png";
 import SIX from "./images/Aboutus/Rectangle 2960.png";
 import SEVEN from "./images/Aboutus/Rectangle 2962.png";
 import { TEAMMEMBER } from "./card";
-import { Footer } from "./footer";
+// import { Footer } from "./footer";
 
 import { HEIRING } from "./card";
 
@@ -109,7 +109,7 @@ const ABOUT = () => {
           <HEIRING></HEIRING>
           <JOBCATEGORIES></JOBCATEGORIES>
         </div>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
       </div>
     </>
   );

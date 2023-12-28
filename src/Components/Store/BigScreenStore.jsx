@@ -4,21 +4,21 @@ import NAVBAR from "../Navbar";
 import ABOUT from "../About";
 import HOME from "../Home";
 import CONTACT from "../Contact";
-import { Bell } from "../bell";
-import { CART } from "../cart";
-import { WISHLIST } from "../cart";
-import { PROFILE } from "../cart";
-// import { HOMESTR } from "./Homestore";
-// import { BELOWNAVIGATION } from "../shopnv";
-// import { EYEGLASS } from "./ShopProduct";
-export const BIGSCREENSTORE = () => {
-  const [selectTab, setselectTab] = useState("Home");
+import { Bell } from "../Bell/bell";
+import { CART } from "../Cart/cart";
+import WISHLIST from "../Wishlist/wishList";
 
+import PROFILE from "../PROFILE/Profile";
+import { Footer } from "../footer";
+
+export const BIGSCREENSTORE = () => {
+  const [selectTab, setselectTab] = useState("Heart");
   return (
     <>
       {/*   IT IS AN COMPLE LOGIC FOR OUR NAVBAR SECTION */}
       <div>
         <NAVBAR selectTab={setselectTab}></NAVBAR>
+
         {selectTab === "Home" ? (
           <>
             <HOME></HOME>
@@ -50,6 +50,7 @@ export const BIGSCREENSTORE = () => {
         ) : (
           <></>
         )}
+        <Footer></Footer>
       </div>
     </>
   );

@@ -8,11 +8,13 @@ import HOME from "./Components/Home";
 import ABOUT from "./Components/About";
 import CONTACT from "./Components/Contact";
 import NAVBAR from "./Components/Navbar";
+
 function App() {
   const [selectedTab, setSelectedTab] = useState("Home");
   return (
     <>
       <BIGSCREENSTORE></BIGSCREENSTORE>
+      {/* <Footer></Footer> */}
     </>
   );
 }

@@ -130,3 +130,48 @@ body {
     /* Adjust the alpha channel (last value) for transparency */
     padding: 20px;
 }
+
+/*  HERE PROFILE CSS IS START  */
+.profile-card {
+    width: 317px;
+    max-height: 505.099px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-text {
+    color: #49352E;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.card-text:hover {
+    color: rgb(80, 70, 55);
+    background-color: antiquewhite;
+}
+
+.card-backgrnd {
+    overflow: hidden;
+    /* width: 1311.896px; */
+    height: 355.045px;
+    padding: 1.5%;
+    flex-shrink: 0;
+}
+
+.profile-img {
+    width: 200.383px;
+    height: 200.383px;
+
+    flex-shrink: 0;
+}
+
+.addres-card {
+    width: 592.939px;
+    background-color: #F8F4F3;
+    ;
+
+}
