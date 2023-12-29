@@ -146,3 +146,5 @@ export const Heiring_opper = ({ position, Experience, salary, role }) => {
     </>
   );
 };
+
+export const WishListCard = () => {};

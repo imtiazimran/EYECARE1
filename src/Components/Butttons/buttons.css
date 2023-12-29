@@ -9,3 +9,15 @@
      width: 170px;
 
  }
+
+ .addCart {
+
+     background-color: #49352E;
+     padding: 20px;
+     width: 100%;
+
+ }
+
+ .addCart:hover {
+     background-color: rgba(56, 45, 30, 1)
+ }
