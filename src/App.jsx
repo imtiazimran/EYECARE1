@@ -1,20 +1,33 @@
 /* eslint-disable no-unused-vars */
 
 import "./App.css";
-import { useState } from "react";
-import NEXTHEADER from "./Components/NextHeader";
 import { BIGSCREENSTORE } from "./Components/Store/BigScreenStore";
-import HOME from "./Components/Home";
-import ABOUT from "./Components/About";
-// import CONTACT from "./Components/Contact";
-import NAVBAR from "./Components/Navbar";
+import React from "react";
+import ABOUT from "./Components/About.jsx";
+import CONTACT from "./Components/Contact/Contact.jsx";
+import { Bell } from "./Components/Bell/bell.jsx";
+import { CART } from "./Components/Cart/cart.jsx";
+import WISHLIST from "./Components/Wishlist/wishList.jsx";
+import PROFILE from "./Components/PROFILE/Profile.jsx";
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
-  const [selectedTab, setSelectedTab] = useState("Home");
   return (
     <>
-      <BIGSCREENSTORE></BIGSCREENSTORE>
-      {/* <Footer></Footer> */}
+      {/* <BIGSCREENSTORE></BIGSCREENSTORE> */}
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<BIGSCREENSTORE />} />
+          <Route path="/about" element={<ABOUT />} />
+          <Route path="/contact" element={<CONTACT />} />
+          <Route path="/bell" element={<Bell />} />
+          <Route path="/cart" element={<CART />} />
+          <Route path="/wishList" element={<WISHLIST />} />
+          <Route path="/userProfile" element={<PROFILE />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
