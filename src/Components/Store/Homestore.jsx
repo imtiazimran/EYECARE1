@@ -3,6 +3,7 @@
 
 import ISLIDER from "../Islider";
 import Card from "../card";
+// import Card from "../Cards/card";
 import { Middle } from "../Cards";
 import { SRK } from "../card";
 import { SCOCIALMEDIAINFLUNCER } from "../card";

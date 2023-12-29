@@ -6,7 +6,7 @@ import NEXTHEADER from "./Components/NextHeader";
 import { BIGSCREENSTORE } from "./Components/Store/BigScreenStore";
 import HOME from "./Components/Home";
 import ABOUT from "./Components/About";
-import CONTACT from "./Components/Contact";
+// import CONTACT from "./Components/Contact";
 import NAVBAR from "./Components/Navbar";
 
 function App() {

@@ -4,27 +4,26 @@ import { POPULATPRODUCT } from "./Cards";
 import { WeareHeiring } from "./Cards";
 import { Heiring_opper } from "./Cards";
 import MobileView from "./images/SmallScreen/image 14.png";
-
-import { StyleMebtn } from "./Butttons/button";
+import { StyleMebtn } from "./button";
 import { POPULARPRODUCTMOBILE } from "./Cards";
 const Card = () => {
   const cardData = [
     {
       id: 1,
       name: " Womens",
-      imageUrl: "./images/card/Rectangle 2270.png",
+      imageUrl: "../images/card/Rectangle 2270.png",
     },
 
     {
       id: 2,
       name: "Mens",
-      imageUrl: "./images/card/Rectangle 2271.png",
+      imageUrl: "../images/card/Rectangle 2271.png",
     },
 
     {
       id: 3,
       name: "Children",
-      imageUrl: "./images/card/Rectangle 2272.png",
+      imageUrl: "../images/card/Rectangle 2272.png",
     },
   ];
 
@@ -45,13 +44,13 @@ export const SRK = () => {
     {
       id: 1,
       name: " Raees",
-      imageUrl: "./images/card/Rectangle 2288.png",
+      imageUrl: "../images/card/Rectangle 2288.png",
     },
 
     {
       id: 2,
       name: "Phatan",
-      imageUrl: "./images/card/Rectangle 2291.png",
+      imageUrl: "../images/card/Rectangle 2291.png",
     },
 
     {
