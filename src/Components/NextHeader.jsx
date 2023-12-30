@@ -130,11 +130,9 @@ export const HEROIMAGE = () => {
 
         <div className=" flex items-center justify-center text-center w-[33vw]">
           <div>
-            <p className="text-3xl font-semibold">Limited Period Offer</p>
+            <p className="text-2xl  font-semibold">Limited Period Offer</p>
 
-            <p className="pt-4 sm:text-4xl font-bold">
-              BUY TWO AND GET ONE FREE
-            </p>
+            <p className="pt-4  font-bold">BUY TWO AND GET ONE FREE</p>
             <StyleMebtn></StyleMebtn>
           </div>
         </div>

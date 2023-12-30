@@ -32,14 +32,14 @@ const ISLIDER = () => {
         alt="image are  ot load"
         width={1400}
         height={576}
-        className=" z-0"
+        className=" z-0 w-full"
       />
       {/* <button
         onClick={() => {
           if (selectedImage < allImages.length - 1)
             setSelectedImage(selectedImage + 1);
         }}
-        className="w-[32vw]  absolute z-20  right-0 border border-red-400  h-full"
+        className="w-[32vw]  absolute z-20  right-0   h-full"
       ></button> */}
     </div>
   );
