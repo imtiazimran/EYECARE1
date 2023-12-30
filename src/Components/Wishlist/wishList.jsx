@@ -3,7 +3,7 @@
 import { FaFilter } from "react-icons/fa";
 
 import "./wishlist.css";
-import NAVBAR from "../Navbar";
+// import NAVBAR from "../Navbar";
 import { BELOWNAVIGATION } from "../shopnv";
 import { Footer } from "../footer";
 // eslint-disable-next-line no-unused-vars
@@ -14,7 +14,7 @@ const WISHLIST = () => {
   return (
     <>
       <div>
-        <NAVBAR></NAVBAR>
+        {/* <NAVBAR></NAVBAR> */}
         <BELOWNAVIGATION></BELOWNAVIGATION>
         <div className=" hidden sm:block">
           <div className=" hidden sm:flex relative">

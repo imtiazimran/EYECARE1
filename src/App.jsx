@@ -9,6 +9,7 @@ import { Bell } from "./Components/Bell/bell.jsx";
 import { CART } from "./Components/Cart/cart.jsx";
 import WISHLIST from "./Components/Wishlist/wishList.jsx";
 import PROFILE from "./Components/PROFILE/Profile.jsx";
+import NAVBAR from "./Components/Navbar.jsx";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -16,8 +17,9 @@ function App() {
   return (
     <>
       {/* <BIGSCREENSTORE></BIGSCREENSTORE> */}
-
       <BrowserRouter>
+        <NAVBAR></NAVBAR>
+
         <Routes>
           <Route path="/" element={<BIGSCREENSTORE />} />
           <Route path="/about" element={<ABOUT />} />

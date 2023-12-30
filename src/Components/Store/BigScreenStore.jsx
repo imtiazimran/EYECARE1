@@ -1,11 +1,13 @@
 // import { useState } from "react";
-import NAVBAR from "../Navbar";
+
 import HOME from "../../Pages/Home";
+import { Footer } from "../footer";
 export const BIGSCREENSTORE = () => {
   return (
     <>
-      <NAVBAR></NAVBAR>
       <HOME></HOME>
+
+      <Footer></Footer>
     </>
   );
 };
