@@ -3,7 +3,7 @@
 import { BELOWNAVIGATION } from "./shopnv";
 import FIRST from "./images/Aboutus/First.png";
 import SECOND from "./images/Aboutus/Second.png";
-
+import NAVBAR from "./Navbar";
 import THIRD from "./images/Aboutus/Third.png";
 
 import FORTH from "./images/Aboutus/Forth.png";
@@ -12,15 +12,13 @@ import FIVE from "./images/Aboutus/Rectangle 2959.png";
 import SIX from "./images/Aboutus/Rectangle 2960.png";
 import SEVEN from "./images/Aboutus/Rectangle 2962.png";
 import { TEAMMEMBER } from "./card";
-// import { Footer } from "./footer";
-
 import { HEIRING } from "./card";
-// import { HEIRING } from "./Cards/card";
-
 import { JOBCATEGORIES } from "./card";
+import { Footer } from "./footer";
 const ABOUT = () => {
   return (
     <>
+      <NAVBAR></NAVBAR>
       <BELOWNAVIGATION></BELOWNAVIGATION>
 
       <div className=" hidden sm:block ">
@@ -110,19 +108,9 @@ const ABOUT = () => {
           <HEIRING></HEIRING>
           <JOBCATEGORIES></JOBCATEGORIES>
         </div>
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
       </div>
     </>
   );
 };
 export default ABOUT;
-
-export const TermAndCondition = () => {
-  return (
-    <>
-      <div className=" text-center text-3xl ">
-        Term And Condition Are Align here
-      </div>
-    </>
-  );
-};

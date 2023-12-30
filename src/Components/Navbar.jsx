@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/prop-types */
-
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import ImageHeart from "./Images/Nav/Union.svg";
 import ImageCart from "./Images/Nav/Group 2980.svg";
@@ -135,43 +135,40 @@ const NAVBAR = ({ selectTab }) => {
                "
               >
                 <li className=" ">
-                  <a
-                    href="#"
+                  <Link
+                    to="/"
                     className="block py-2 px-3 rounded md:bg-transparent  md:p-0  
                      hover:text-blue-700"
                     aria-current="page"
-                    onClick={() => {
-                      selectTab("Home");
-                    }}
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to="/About"
                     className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                     onClick={() => {
                       selectTab("About");
                     }}
                   >
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li onClick={() => console.log("contact")}>
-                  <a
-                    href="#"
+                  <Link
+                    to="/contact"
                     className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                     onClick={() => {
                       selectTab("Contact");
                     }}
                   >
                     Contact
-                  </a>
+                  </Link>
                 </li>
                 <li className=" ">
-                  <a
-                    href="#"
+                  <Link
+                    to="/bell"
                     className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                     onClick={() => {
                       selectTab("Bell");
@@ -182,12 +179,12 @@ const NAVBAR = ({ selectTab }) => {
                       alt="Description of the image"
                       className="     text-center  h-1/2 sm:h-3/4 "
                     />{" "}
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to="/cart"
                     className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                     onClick={() => {
                       selectTab("Cart");
@@ -198,11 +195,11 @@ const NAVBAR = ({ selectTab }) => {
                       alt="Description of the image"
                       className="     text-center  h-1/2 sm:h-3/4 "
                     />{" "}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to="/wishList"
                     className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                     onClick={() => {
                       selectTab("Heart");
@@ -213,11 +210,11 @@ const NAVBAR = ({ selectTab }) => {
                       alt="Description of the image"
                       className="     text-center  h-1/2 sm:h-3/4 "
                     />{" "}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to="/userProfile"
                     className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                     onClick={() => {
                       selectTab("Profile");
@@ -228,7 +225,7 @@ const NAVBAR = ({ selectTab }) => {
                       alt="Description of the image"
                       className="     text-center  h-1/2 sm:h-3/4 "
                     />{" "}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
