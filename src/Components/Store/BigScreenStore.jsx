@@ -6,7 +6,6 @@ export const BIGSCREENSTORE = () => {
   return (
     <>
       <HOME></HOME>
-
       <Footer></Footer>
     </>
   );
