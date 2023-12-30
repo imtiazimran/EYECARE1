@@ -1,6 +1,9 @@
 /* eslint-disable react-refresh/only-export-components */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
+import { AddtoCart } from "./Butttons/button";
+import { FaFilter } from "react-icons/fa";
+import { CiHeart } from "react-icons/ci";
 import Testimonial from "./images/footer/Testimonial.png";
 import Girl from "./images/imgae/image 54.png";
 // png
@@ -142,6 +145,29 @@ export const Heiring_opper = ({ position, Experience, salary, role }) => {
             10:00-05:00
           </span>
         </p>
+      </div>
+    </>
+  );
+};
+
+export const AddTobag_item = ({ image, name, size, star, review, price }) => {
+  return (
+    <>
+      <div className="WishList-item bg-white  w-[30vw] mt-4 relative hidden sm:block ">
+        <img src={image} alt="" className="w-[80%] flex justify-center" />
+        <p className=" font-semibold">{name}</p>
+        <p className=" mt-4 ">
+          <span className=" text-xl">{size}</span>
+          <span className=" absolute  right-[5%] text-sm">
+            ⭐{star}/{review}
+          </span>
+        </p>
+        <p className=" mt-2  text-sm ">{price}</p>
+        <hr />
+        <div className=" flex ">
+          <CiHeart className=" w-[50%] flex justify-center  mt-4  hover:text-red-800" />
+          <AddtoCart className="w-[50%] " />
+        </div>
       </div>
     </>
   );

@@ -1,13 +1,13 @@
 /* eslint-disable no-undef */
 /* eslint-disable react-refresh/only-export-components */
 import { FaFilter } from "react-icons/fa";
-import { CiHeart } from "react-icons/ci";
+
 import "./wishlist.css";
 import { BELOWNAVIGATION } from "../shopnv";
 // eslint-disable-next-line no-unused-vars
 // const imageUrl1 = process.env.PUBLIC_URL + "/images/WishList/image 15.png";
-import imageUrl1 from "/images/WishList/image 15.png";
-import { AddtoCart } from "../Butttons/button";
+
+import { ADDTOBAG } from "../card";
 const WISHLIST = () => {
   return (
     <>
@@ -53,20 +53,7 @@ const WISHLIST = () => {
             <FaFilter /> Short:
           </button>
         </div>
-        <div className="WishList-item bg-white  w-[30vw] mt-4 relative hidden sm:block ">
-          <img src={imageUrl1} alt="" />
-          <p className=" font-semibold">Eye Care Classic</p>
-          <p className=" mt-4 ">
-            <span className=" text-xl">Size Medium</span>
-            <span className=" absolute  right-[5%] text-sm">⭐ 4.5/124</span>
-          </p>
-          <p className=" mt-2  text-sm">Rs:XXX</p>
-          <hr />
-          <div className=" flex ">
-            <CiHeart className=" w-[50%] flex justify-center  mt-4  hover:text-red-800" />
-            <AddtoCart className="w-[50%] absolute" />
-          </div>
-        </div>
+        <ADDTOBAG></ADDTOBAG>
       </div>
     </>
   );

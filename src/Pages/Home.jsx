@@ -1,7 +1,8 @@
 /* eslint-disable react-refresh/only-export-components */
-
-import { BELOWNAVIGATION } from "./shopnv";
-import { HOMESTR } from "./Store/Homestore";
+import { BELOWNAVIGATION } from "../Components/shopnv";
+// import { BELOWNAVIGATION } from "./shopnv";
+// import { HOMESTR } from "./Store/Homestore";
+import { HOMESTR } from "../Components/Store/Homestore";
 // import { Footer } from "./footer";
 const HOME = () => {
   return (
@@ -10,7 +11,6 @@ const HOME = () => {
         <div>
           <BELOWNAVIGATION></BELOWNAVIGATION>
           <HOMESTR></HOMESTR>
-          {/* <Footer></Footer> */}
         </div>
       </div>
     </>

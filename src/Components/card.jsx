@@ -4,6 +4,7 @@ import { POPULATPRODUCT } from "./Cards";
 import { WeareHeiring } from "./Cards";
 import { Heiring_opper } from "./Cards";
 import MobileView from "./images/SmallScreen/image 14.png";
+import { AddTobag_item } from "./Cards";
 
 import { StyleMebtn } from "./Butttons/button";
 import { POPULARPRODUCTMOBILE } from "./Cards";
@@ -202,7 +203,7 @@ export const POPULAR = () => {
   return (
     <>
       <div
-        className="  sm:mt-9  
+        className="  sm:mt-9
       sm:text-3xl hidden sm:block"
       >
         <p className="font-bold italic">POPULAR PRODUCTS </p>
@@ -318,7 +319,7 @@ export const TEAMMEMBER = () => {
   return (
     <>
       <div
-        className="  sm:mt-9   hidden 
+        className="  sm:mt-9   hidden
       sm:block sm:text-3xl"
       >
         <hr className=" bg-black h-1  mt-[3%]" />
@@ -425,6 +426,112 @@ export const JOBCATEGORIES = () => {
             Experience={card.Experience}
             salary={card.salary}
             role={card.role}
+          />
+        ))}
+      </div>
+    </>
+  );
+};
+
+export const ADDTOBAG = () => {
+  const cardData = [
+    {
+      id: 1,
+      imageUrl: "/images/WishList/image 15.png",
+      name: "Eye Care Classic",
+      size: " SIze Medium",
+      star: 4.5,
+      review: 124,
+      price: "999",
+    },
+    {
+      id: 2,
+      imageUrl: "/images/WishList/image 16.png",
+      name: "Eye Care Classic",
+      size: " SIze Medium",
+      star: 4.5,
+      review: 124,
+      price: "999",
+    },
+    {
+      id: 3,
+      imageUrl: "/images/WishList/image 23.png",
+      name: "Eye Care Classic",
+      size: " SIze Medium",
+      star: 4.5,
+      review: 124,
+      price: "999",
+    },
+    {
+      id: 4,
+      imageUrl: "/images/WishList/image 15.png",
+      name: "Eye Care Classic",
+      size: " SIze Medium",
+      star: 4.5,
+      review: 124,
+      price: "999",
+    },
+    {
+      id: 5,
+      imageUrl: "/images/WishList/image 16.png",
+      name: "Eye Care Classic",
+      size: " SIze Medium",
+      star: 4.5,
+      review: 124,
+      price: "999",
+    },
+    {
+      id: 6,
+      imageUrl: "/images/WishList/image 23.png",
+      name: "Eye Care Classic",
+      size: " SIze Medium",
+      star: 4.5,
+      review: 124,
+      price: "999",
+    },
+
+    {
+      id: 7,
+      imageUrl: "/images/WishList/image 15.png",
+      name: "Eye Care Classic",
+      size: " SIze Medium",
+      star: 4.5,
+      review: 124,
+      price: "999",
+    },
+    {
+      id: 8,
+      imageUrl: "/images/WishList/image 16.png",
+      name: "Eye Care Classic",
+      size: " SIze Medium",
+      star: 4.5,
+      review: 124,
+      price: "999",
+    },
+
+    {
+      id: 9,
+      imageUrl: "/images/WishList/image 23.png",
+      name: "Eye Care Classic",
+      size: " SIze Medium",
+      star: 4.5,
+      review: 124,
+      price: "999",
+    },
+  ];
+
+  return (
+    <>
+      <div className="  grid  justify-evenly  grid-cols-3">
+        {cardData.map((card) => (
+          <AddTobag_item
+            key={card.id}
+            image={card.imageUrl}
+            name={card.name}
+            size={card.size}
+            star={card.size}
+            review={card.review}
+            price={card.price}
           />
         ))}
       </div>
