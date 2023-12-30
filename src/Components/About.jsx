@@ -3,7 +3,7 @@
 import { BELOWNAVIGATION } from "./shopnv";
 import FIRST from "./images/Aboutus/First.png";
 import SECOND from "./images/Aboutus/Second.png";
-// import NAVBAR from "./Navbar";
+
 import THIRD from "./images/Aboutus/Third.png";
 
 import FORTH from "./images/Aboutus/Forth.png";
@@ -18,7 +18,6 @@ import { Footer } from "./footer";
 const ABOUT = () => {
   return (
     <>
-      {/* <NAVBAR></NAVBAR> */}
       <BELOWNAVIGATION></BELOWNAVIGATION>
 
       <div className=" hidden sm:block ">

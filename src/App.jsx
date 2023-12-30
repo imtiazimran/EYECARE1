@@ -16,20 +16,21 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      {/* <BIGSCREENSTORE></BIGSCREENSTORE> */}
-      <BrowserRouter>
-        <NAVBAR></NAVBAR>
+      <div>
+        <BrowserRouter>
+          <NAVBAR></NAVBAR>
 
-        <Routes>
-          <Route path="/" element={<BIGSCREENSTORE />} />
-          <Route path="/about" element={<ABOUT />} />
-          <Route path="/contact" element={<CONTACT />} />
-          <Route path="/bell" element={<Bell />} />
-          <Route path="/cart" element={<CART />} />
-          <Route path="/wishList" element={<WISHLIST />} />
-          <Route path="/userProfile" element={<PROFILE />} />
-        </Routes>
-      </BrowserRouter>
+          <Routes>
+            <Route path="/" element={<BIGSCREENSTORE />} />
+            <Route path="/about" element={<ABOUT />} />
+            <Route path="/contact" element={<CONTACT />} />
+            <Route path="/bell" element={<Bell />} />
+            <Route path="/cart" element={<CART />} />
+            <Route path="/wishList" element={<WISHLIST />} />
+            <Route path="/userProfile" element={<PROFILE />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
     </>
   );
 }
