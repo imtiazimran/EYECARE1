@@ -31,7 +31,6 @@ export const HOMESTR = () => {
         <TRENDING></TRENDING>
         <POPULAR></POPULAR>
         <FooterImage></FooterImage>
-        {/* <Footer></Footer> */}
       </div>
     </>
   );
