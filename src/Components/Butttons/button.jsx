@@ -16,3 +16,11 @@ export const AddtoCart = () => {
     </>
   );
 };
+
+export const BuyNow = () => {
+  return (
+    <>
+      <button className="stylemebtn"> Style me </button>
+    </>
+  );
+};

@@ -22,3 +22,17 @@
  .addCart:hover {
      background-color: rgba(56, 45, 30, 1)
  }
+
+ .stylemebtn {
+
+     display: inline-flex;
+     padding: 27px 43px;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     letter-spacing: -0.32px;
+     border-radius: 50px;
+     border: 1px solid #49352E;
+     background: #49352E;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ }
