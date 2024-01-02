@@ -18,7 +18,7 @@ import { TEAMMEMBER } from "../Components/card";
 import { HEIRING } from "../Components/card";
 
 import { JOBCATEGORIES } from "../Components/card";
-
+import { Footer } from "../Components/footer";
 const ABOUT = () => {
   return (
     <>
@@ -111,19 +111,9 @@ const ABOUT = () => {
           <HEIRING></HEIRING>
           <JOBCATEGORIES></JOBCATEGORIES>
         </div>
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
       </div>
     </>
   );
 };
 export default ABOUT;
-
-export const TermAndCondition = () => {
-  return (
-    <>
-      <div className=" text-center text-3xl ">
-        Term And Condition Are Align here
-      </div>
-    </>
-  );
-};

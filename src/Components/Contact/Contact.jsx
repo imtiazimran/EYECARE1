@@ -2,6 +2,7 @@
 
 // import { BELOWNAVIGATION } from "../shopnv";
 import { Footer } from "../footer";
+// import { Footer } from "../../Pages/footer";
 const CONTACT = () => {
   return (
     <>

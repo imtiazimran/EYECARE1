@@ -81,7 +81,7 @@ export const Footer = () => {
               }}
             >
               <p className="mr-1 text-gray-800">
-                <a href="#">Term & condition </a>
+                <Link to={"/Condition"}>Term & condition </Link>
               </p>
             </div>
             <div className="flex">

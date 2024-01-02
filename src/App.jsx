@@ -12,7 +12,7 @@ import { CART } from "./Components/Cart/cart.jsx";
 import WISHLIST from "./Components/Wishlist/wishList.jsx";
 import PROFILE from "./Components/PROFILE/Profile.jsx";
 import NAVBAR from "./Components/Navbar.jsx";
-
+import TERMANDCONDITION from "./Pages/TermandCondition.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -30,6 +30,7 @@ function App() {
             <Route path="/cart" element={<CART />} />
             <Route path="/wishList" element={<WISHLIST />} />
             <Route path="/userProfile" element={<PROFILE />} />
+            <Route path="/Condition" element={<TERMANDCONDITION />} />
           </Routes>
         </BrowserRouter>
       </div>

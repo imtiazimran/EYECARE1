@@ -1,4 +1,5 @@
 import { Footer } from "../footer";
+
 export const CART = () => {
   return (
     <>
