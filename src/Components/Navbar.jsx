@@ -17,7 +17,7 @@ const NAVBAR = () => {
   return (
     <>
       <div className=" bg-white">
-        <nav className="   w-full sm:mt-0 dark:bg-gray-900   ">
+        <nav className="   w-full dark:bg-gray-900   ">
           <div className=" flex flex-wrap  justify-between    sm:p-4  ">
             {/*  HERE   AND OUR LOGO DESIGNED  */}
             <a

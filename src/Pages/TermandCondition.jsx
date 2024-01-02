@@ -2,6 +2,7 @@
 import "./Pages.css";
 import BELOWNAVIGATION from "../Components/shopnv";
 import { Footer } from "../Components/footer";
+import ACCORDIAN from "./Accordian";
 const TERMANDCONDITION = () => {
   return (
     <>
@@ -88,6 +89,7 @@ const TERMANDCONDITION = () => {
         <div>
           <hr className=" bg-black h-1  mt-[3vh]" />
           <h1 className=" text-center termsAndCondition">FAQ</h1>
+          <ACCORDIAN></ACCORDIAN>
         </div>
         <Footer></Footer>
       </div>
