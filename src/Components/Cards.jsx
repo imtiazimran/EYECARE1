@@ -29,7 +29,7 @@ export default SimpleCard;
 export const Middle = () => {
   return (
     <>
-      <div className="sm:w-full  relative  p-1 sm:pl-3 sm:pt-3 middle-image sm:h-[70vh]   hidden sm:block">
+      <div className="sm:w-full  relative  p-1 sm:pl-3 sm:pt-3 middle-image   hidden sm:block">
         <div>
           <img
             src={Girl}
@@ -38,7 +38,10 @@ export const Middle = () => {
           />
         </div>
         <div className="  absolute  h-full   right-[25%]  left-[25%] bottom-0 text-center   flex flex-col justify-center items-center italic ">
-          <h1 className="  sm:text-4xl  middletext  text-xl  italic   sm:w-[70%] font-bold sm:font-extrabold ">
+          <h1
+            className="  sm:text-4xl  middletext  text-xl  italic   
+          sm:w-[70%] font-semibold sm:font-extrabold "
+          >
             Unlock Your Unique Style
             <p className="middletext1 text-center font-light  textsm:font-bold mt-0">
               let us help you style according to your personality
@@ -153,7 +156,7 @@ export const Heiring_opper = ({ position, Experience, salary, role }) => {
 export const AddTobag_item = ({ image, name, size, star, review, price }) => {
   return (
     <>
-      <div className="WishList-item bg-white  w-[30vw] mt-4 relative hidden sm:block ">
+      <div className="WishList-item bg-white  w-[30vw] mt-4 relative hidden sm:block border    border-red-300 rounded-lg p-2">
         <img src={image} alt="" className="w-[80%] flex justify-center" />
         <p className=" font-semibold">{name}</p>
         <p className=" mt-4 ">

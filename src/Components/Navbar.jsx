@@ -16,8 +16,8 @@ const NAVBAR = () => {
 
   return (
     <>
-      <div className=" bg-white">
-        <nav className="   w-full dark:bg-gray-900   ">
+      <div className=" bg-white  w-full">
+        <nav className="   w-full dark:bg-gray-900    ">
           <div className=" flex flex-wrap  justify-between    sm:p-4  ">
             {/*  HERE   AND OUR LOGO DESIGNED  */}
             <a
@@ -26,10 +26,10 @@ const NAVBAR = () => {
             >
               <img
                 src="https://flowbite.com/docs/images/logo.svg"
-                className="h-8"
+                className="h-8 "
                 alt="Flowbite Logo"
               />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white md:hidden lg:block">
                 Logo
               </span>
             </a>
@@ -86,7 +86,8 @@ const NAVBAR = () => {
                 <input
                   type="text"
                   id="search-navbar"
-                  className="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  className="block w-full 
+                    p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500  "
                   placeholder="Search..."
                 />
               </div>
@@ -97,7 +98,6 @@ const NAVBAR = () => {
                  dark:focus:ring-gray-600"
                 aria-controls="navbar-search"
                 aria-expanded="false"
-                onClick={() => handleClicked()}
               >
                 <span className="sr-only">Open main menu</span>
                 <svg
@@ -131,13 +131,13 @@ const NAVBAR = () => {
                 />
               </div>
               <ul
-                className="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-gray-800  md:dark:bg-gray-900 dark:border-gray-700 float-right
+                className="flex flex-col  p-3  md:p-0 mt-4 font-medium border rounded-lg  md:space-x-4  lg:space-x-7 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-gray-800  md:dark:bg-gray-900 dark:border-gray-700 float-right  border-red-500
                "
               >
                 <li className=" ">
                   <Link
                     to="/"
-                    className="block py-2 px-3 rounded md:bg-transparent  md:p-0  
+                    className="block  rounded md:bg-transparent  md:p-0   
                      hover:text-blue-700"
                     aria-current="page"
                   >
@@ -168,7 +168,7 @@ const NAVBAR = () => {
                     <img
                       src={BellImage}
                       alt="Description of the image"
-                      className="     text-center  h-1/2 sm:h-3/4 "
+                      className="     text-center  h-1/2 sm:h-3/4   md:w-[80%] lg:w-[100%]  "
                     />{" "}
                   </Link>
                 </li>
@@ -181,7 +181,7 @@ const NAVBAR = () => {
                     <img
                       src={ImageCart}
                       alt="Description of the image"
-                      className="     text-center  h-1/2 sm:h-3/4 "
+                      className="     text-center  h-1/2 sm:h-3/4    md:w-[80%] lg:w-[100%]"
                     />{" "}
                   </Link>
                 </li>
@@ -193,7 +193,7 @@ const NAVBAR = () => {
                     <img
                       src={ImageHeart}
                       alt="Description of the image"
-                      className="     text-center  h-1/2 sm:h-3/4 "
+                      className="     text-center  h-1/2 sm:h-3/4   md:w-[80%] lg:w-[100%]"
                     />{" "}
                   </Link>
                 </li>
@@ -205,7 +205,7 @@ const NAVBAR = () => {
                     <img
                       src={Profile}
                       alt="Description of the image"
-                      className="     text-center  h-1/2 sm:h-3/4 "
+                      className="     text-center  h-1/2 sm:h-3/4   md:w-[80%] lg:w-[100%] "
                     />{" "}
                   </Link>
                 </li>
