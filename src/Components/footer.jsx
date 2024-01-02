@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 /* eslint-disable react/prop-types */
 import Rayban from "./images/footer/image 59.png";
 import Calven from "./images/footer/image 60.png";
@@ -20,8 +21,8 @@ export const Footer = () => {
       <div className=" hidden sm:block px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2">
-            <a
-              href="/"
+            <Link
+              to={"/"}
               aria-label="Go home"
               title="Company"
               className="inline-flex items-center"
@@ -44,7 +45,7 @@ export const Footer = () => {
               <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                 Eyewear.Com
               </span>
-            </a>
+            </Link>
             <div className="mt-6 lg:max-w-sm">
               <p className="text-sm text-gray-800">
                 Welcome to EyeCare.com, your premier destination for the latest
@@ -59,7 +60,7 @@ export const Footer = () => {
           </div>
           <div className="space-y-2 text-sm">
             <p className="text-base font-bold tracking-wide text-gray-900">
-              About Us
+              <Link to={"/About"}> About Us</Link>
             </p>
             <div className="flex">
               <a href="">
@@ -157,11 +158,7 @@ export const Footer = () => {
             <li>
               <a
                 href="./button.jsx"
-                className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 bg-red-300"
-                onClick={(e) => {
-                  e.preventDefault();
-                  console.log("Afzal khan");
-                }}
+                className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
               >
                 Terms &amp; Conditions
               </a>

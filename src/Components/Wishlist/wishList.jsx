@@ -3,8 +3,8 @@
 import { FaFilter } from "react-icons/fa";
 
 import "./wishlist.css";
-// import NAVBAR from "../Navbar";
-import { BELOWNAVIGATION } from "../shopnv";
+
+import BELOWNAVIGATION from "../shopnv";
 import { Footer } from "../footer";
 // eslint-disable-next-line no-unused-vars
 // const imageUrl1 = process.env.PUBLIC_URL + "/images/WishList/image 15.png";

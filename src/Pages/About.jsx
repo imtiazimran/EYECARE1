@@ -1,23 +1,24 @@
 /* eslint-disable react-refresh/only-export-components */
 
-import { BELOWNAVIGATION } from "./shopnv";
-import FIRST from "./images/Aboutus/First.png";
-import SECOND from "./images/Aboutus/Second.png";
+import BELOWNAVIGATION from "../Components/shopnv";
 
-import THIRD from "./images/Aboutus/Third.png";
+import FIRST from "../Components/images/Aboutus/First.png";
+import SECOND from "../Components/images/Aboutus/Second.png";
 
-import FORTH from "./images/Aboutus/Forth.png";
-import video from "./images/Aboutus/five.png";
-import FIVE from "./images/Aboutus/Rectangle 2959.png";
-import SIX from "./images/Aboutus/Rectangle 2960.png";
-import SEVEN from "./images/Aboutus/Rectangle 2962.png";
-import { TEAMMEMBER } from "./card";
-// import { Footer } from "./footer";
+import THIRD from "../Components/images/Aboutus/Third.png";
 
-import { HEIRING } from "./card";
-// import { HEIRING } from "./Cards/card";
+import FORTH from "../Components/images/Aboutus/Forth.png";
+import video from "../Components/images/Aboutus/five.png";
+import FIVE from "../Components/images/Aboutus/Rectangle 2959.png";
+import SIX from "../Components/images/Aboutus/Rectangle 2960.png";
+import SEVEN from "../Components/images/Aboutus/Rectangle 2962.png";
 
-import { JOBCATEGORIES } from "./card";
+import { TEAMMEMBER } from "../Components/card";
+
+import { HEIRING } from "../Components/card";
+
+import { JOBCATEGORIES } from "../Components/card";
+
 const ABOUT = () => {
   return (
     <>

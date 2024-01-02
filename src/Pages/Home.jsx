@@ -1,5 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
-import { BELOWNAVIGATION } from "../Components/shopnv";
+// import { BELOWNAVIGATION } from "../Components/shopnv";
+import BELOWNAVIGATION from "../Components/shopnv";
 
 import { HOMESTR } from "../Components/Store/Homestore";
 

@@ -3,7 +3,9 @@
 import "./App.css";
 import { BIGSCREENSTORE } from "./Components/Store/BigScreenStore";
 import React from "react";
-import ABOUT from "./Components/About.jsx";
+// import ABOUT from "./Components/About.jsx";
+// import ABOUT from "./Components/About.jsx";
+import ABOUT from "./Pages/About.jsx";
 import CONTACT from "./Components/Contact/Contact.jsx";
 import { Bell } from "./Components/Bell/bell.jsx";
 import { CART } from "./Components/Cart/cart.jsx";
