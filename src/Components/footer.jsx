@@ -7,14 +7,14 @@ import Titan from "./images/footer/image 61.png";
 export const Footer = () => {
   return (
     <>
-      <div className="sm:w-full  mt-4 bg-white   p-1 sm:pl-3 sm:pt-3  sm:h-[20vh] space-x-4   hidden  sm:block items-center   ">
-        <div className="  flex   h-[12vh]  justify-evenly  mt-5 ">
-          <img src={Rayban} alt="Girl" className="h-full w-[15%]   " />
-          <img src={Calven} alt="Girl" className="h-full w-[15%]   " />
-          <img src={Titan} alt="Girl" className="h-full w-[15%]   " />
-          <img src={Rayban} alt="Girl" className="h-full w-[15%]   " />
-          <img src={Calven} alt="Girl" className="h-full w-[15%]   " />
-          <img src={Titan} alt="Girl" className="h-full w-[15%]   " />
+      <div className="sm:w-full  mt-4 bg-white   p-1 sm:pl-3 sm:pt-3  sm:h-[20vh] space-x-4   hidden  sm:flex items-center  align-center    ">
+        <div className="  flex   h-[12vh]  justify-evenly  mt-5 w-full ">
+          <img src={Rayban} alt="Girl" className=" w-[10%] h-[50%]  " />
+          <img src={Calven} alt="Girl" className=" w-[10%] h-[50%]  " />
+          <img src={Titan} alt="Girl" className=" w-[10%] h-[50%]  " />
+          <img src={Rayban} alt="Girl" className=" w-[10%] h-[50%]   " />
+          <img src={Calven} alt="Girl" className=" w-[10%]  h-[50%]  " />
+          <img src={Titan} alt="Girl" className=" w-[10%] h-[50%]  " />
         </div>
       </div>
 
