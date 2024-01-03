@@ -29,12 +29,16 @@ export default SimpleCard;
 export const Middle = () => {
   return (
     <>
-      <div className="sm:w-full  relative  p-1 sm:pl-3 sm:pt-3 middle-image   hidden sm:block">
+      <div
+        className="sm:w-full  relative  p-1 sm:pl-3 sm:pt-3 middle-image   hidden 
+       sm:block border border-red-700  md:h-[25vh] lg:h-[40vh]
+      "
+      >
         <div>
           <img
             src={Girl}
             alt="Girl"
-            className="h-full w-[25%] absolute z-10 bottom-0  "
+            className=" w-[25%] absolute z-10 bottom-0   h-full "
           />
         </div>
         <div className="  absolute  h-full   right-[25%]  left-[25%] bottom-0 text-center   flex flex-col justify-center items-center italic ">
