@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&family=Roboto:ital,wght@1,900&display=swap');
+
+
 .Hero {
     max-width: 576.001px;
     max-height: 576px;
@@ -78,7 +81,7 @@
 .Recommend {
     font-family: Poppins;
     /* font-size: 32px; */
-    font-weight: 500;
+    font-weight: 900;
     line-height: 21px;
     letter-spacing: -0.3199999928474426px;
     text-align: left;
@@ -101,5 +104,9 @@
 }
 
 .filterOpacity {
-    opacity: 0.5;
+    opacity: 0.7;
+}
+
+.short {
+    font-weight: 600;
 }

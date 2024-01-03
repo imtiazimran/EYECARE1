@@ -57,15 +57,15 @@ const WISHLIST = () => {
               className=" flex  align   text-2xl justify-evenly  w-full p-3   filter "
             >
               <div className="flex">
-                <FaFilter className="" />
-                <p className="text-[22px] Shorting ml-[5%]"> Short</p>
-                <p className=" text-[23px] ml-6 Recommend"> Recommended</p>
+                <FaFilter className="short text-[25px]" />
+                <p className="text-[20px] Shorting ml-[5%]  short "> Short</p>
+                <p className=" text-[20px] ml-6 Recommend"> Recommended</p>
               </div>
               <div className=" flex h-full filterOpacity">
-                <p className=" text-[23px] ml-6 low    flex ">Low To High</p>
-                <p className=" text-[23px] ml-6 low flex">High To low</p>
-                <p className=" text-[23px] ml-6 low flex">Popularity</p>
-                <p className=" text-[23px] ml-6 low flex">New Arrival</p>
+                <p className=" text-[20px] ml-6 low    flex ">Low To High</p>
+                <p className=" text-[20px] ml-6 low flex">High To low</p>
+                <p className=" text-[20px] ml-6 low flex">Popularity</p>
+                <p className=" text-[20px] ml-6 low flex">New Arrival</p>
               </div>
               <div className=" flex">
                 <img src={svgpath} alt="Filter SVG" />
