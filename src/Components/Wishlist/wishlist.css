@@ -94,3 +94,12 @@
     text-align: left;
 
 }
+
+.filter {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.filterOpacity {
+    opacity: 0.5;
+}

@@ -12,7 +12,7 @@ export const StyleMebtn = () => {
 export const AddtoCart = () => {
   return (
     <>
-      <button className="addCart text-white rounded-lg"> Add to bag </button>
+      <button className="addCart text-white rounded-lg "> Add to bag </button>
     </>
   );
 };
