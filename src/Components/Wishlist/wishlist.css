@@ -64,3 +64,33 @@
 .WishList-Cart {
     padding: 20px;
 }
+
+.Shorting {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+
+}
+
+.Recommend {
+    font-family: Poppins;
+    /* font-size: 32px; */
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+
+}
+
+.low {
+    font-family: Poppins;
+    /* font-size: 24px; */
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+
+}
