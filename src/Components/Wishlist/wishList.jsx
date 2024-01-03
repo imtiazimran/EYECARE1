@@ -7,7 +7,7 @@ import "./wishlist.css";
 import BELOWNAVIGATION from "../shopnv";
 import { Footer } from "../footer";
 // const svgPath = process.env.PUBLIC_URL + "/filter.svg";
-import svgpath from "/filter.svg";
+import svgpath from "/__.svg";
 
 import { ADDTOBAG } from "../card";
 const WISHLIST = () => {
