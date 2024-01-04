@@ -37,3 +37,24 @@
      background: #49352E;
      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
  }
+
+ .resetbtn {
+     color: #49352E;
+     leading-trim: both;
+     text-edge: cap;
+     font-family: Poppins;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 21px;
+
+
+ }
+
+ .applyBtn {
+     background-color: #49352E;
+ }
+
+ .applyBtn:hover {
+     background-color: rgba(56, 45, 30, 1)
+ }

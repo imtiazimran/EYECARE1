@@ -1,16 +1,23 @@
 /* eslint-disable no-undef */
 /* eslint-disable react-refresh/only-export-components */
 import { FaFilter } from "react-icons/fa";
+import { useState } from "react";
 
 import "./wishlist.css";
-
+import { ResetFilter, ApplyFilter } from "../Butttons/button";
 import BELOWNAVIGATION from "../shopnv";
 import { Footer } from "../footer";
 // const svgPath = process.env.PUBLIC_URL + "/filter.svg";
 import svgpath from "/__.svg";
 
 import { ADDTOBAG } from "../card";
+
 const WISHLIST = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const togglefilter = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
       <div>
@@ -52,9 +59,9 @@ const WISHLIST = () => {
             className=" mt-[2%] bg-white
       hidden sm:block w-[97%]"
           >
-            <button
+            <div
               onClick={() => console.log("Short ")}
-              className=" flex  align   text-2xl justify-evenly  w-full p-3   filter "
+              className=" flex  align   text-2xl justify-evenly  w-full p-3   filter relative "
             >
               <div className="flex w-[28%]">
                 <FaFilter className="short text-[25px]" />
@@ -78,12 +85,22 @@ const WISHLIST = () => {
                   New Arrival
                 </p>
               </div>
-              <div className=" flex    w-[15%]">
+              <div className=" flex    w-[15%]" onClick={togglefilter}>
                 <img src={svgpath} alt="Filter SVG" />
                 <p className=" lg:ml-[7%]  lg:text-[20px]  ml-3">Filter</p>
               </div>
-            </button>
+              {true && (
+                <div className="  border  border-red-300 mb-3 absolute z-20 bg-white right-0  top-[100%]  p-5">
+                  <hr className=" border-black mb-4" />
+                  <span>
+                    <ResetFilter />
+                    <ApplyFilter />
+                  </span>
+                </div>
+              )}
+            </div>
           </div>
+
           <ADDTOBAG></ADDTOBAG>
         </div>
         <Footer></Footer>

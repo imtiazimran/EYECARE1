@@ -24,3 +24,23 @@ export const BuyNow = () => {
     </>
   );
 };
+export const ResetFilter = () => {
+  return (
+    <>
+      <button className=" resetbtn p-5 border border-red-200">
+        {" "}
+        Reset Filter{" "}
+      </button>
+    </>
+  );
+};
+export const ApplyFilter = () => {
+  return (
+    <>
+      <button className=" p-5 applyBtn resetbtn   text-white ">
+        {" "}
+        Reset Filter{" "}
+      </button>
+    </>
+  );
+};
