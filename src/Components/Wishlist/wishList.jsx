@@ -56,21 +56,31 @@ const WISHLIST = () => {
               onClick={() => console.log("Short ")}
               className=" flex  align   text-2xl justify-evenly  w-full p-3   filter "
             >
-              <div className="flex">
+              <div className="flex w-[28%]">
                 <FaFilter className="short text-[25px]" />
                 <p className="text-[20px] Shorting ml-[5%]  short "> Short</p>
-                <p className=" text-[20px] ml-6 Recommend"> Recommended</p>
+                <p className=" lg:text-[20px] lg:ml-6 Recommend ml-3 text-[15px]">
+                  {" "}
+                  Recommended
+                </p>
               </div>
-              <div className=" flex h-full filterOpacity">
-                <p className=" text-[20px] ml-6 low    flex ">Low To High</p>
-                <p className=" text-[20px] ml-6 low flex">High To low</p>
-                <p className=" text-[20px] ml-6 low flex">Popularity</p>
-                <p className=" text-[20px] ml-6 low flex">New Arrival</p>
+              <div className=" flex h-full filterOpacity  w-[50%]">
+                <p className="  lg:text-[20px]  lg:ml-6 low  text-[15px]   flex ml-3 ">
+                  Low To High
+                </p>
+                <p className=" lg:text-[20px]  ml-3 text-[15px] lg:ml-6 low flex">
+                  High To low
+                </p>
+                <p className=" lg:text-[20px]  lg:ml-6 low flex text-[15px] ml-3">
+                  Popularity
+                </p>
+                <p className=" lg:text-[20px]  lg:ml-6 low flex text-[15px] ml-3">
+                  New Arrival
+                </p>
               </div>
-              <div className=" flex">
+              <div className=" flex    w-[15%]">
                 <img src={svgpath} alt="Filter SVG" />
-
-                <p className=" ml-[7%]">Filter</p>
+                <p className=" lg:ml-[7%]  lg:text-[20px]  ml-3">Filter</p>
               </div>
             </button>
           </div>
