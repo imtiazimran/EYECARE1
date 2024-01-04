@@ -31,7 +31,7 @@
 
 .myObject {
     transform: translateZ(100px);
-    /* Adjust the value to move the object farther or closer */
+
 }
 
 .text {
@@ -42,7 +42,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 21px;
-    /* 65.625% */
+
 
 
     letter-spacing: -0.32px;
