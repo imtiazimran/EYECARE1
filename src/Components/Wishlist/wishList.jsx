@@ -72,16 +72,16 @@ const WISHLIST = () => {
                 </p>
               </div>
               <div className=" flex h-full filterOpacity  w-[50%]">
-                <p className="  lg:text-[20px]  lg:ml-6 low  text-[15px]   flex ml-3 ">
+                <p className="  lg:text-[20px]  lg:ml-6 low  text-[15px]   flex ml-3 option ">
                   Low To High
                 </p>
-                <p className=" lg:text-[20px]  ml-3 text-[15px] lg:ml-6 low flex">
+                <p className=" lg:text-[20px]  ml-3 text-[15px] lg:ml-6 low flex option">
                   High To low
                 </p>
-                <p className=" lg:text-[20px]  lg:ml-6 low flex text-[15px] ml-3">
+                <p className=" lg:text-[20px]  lg:ml-6 low flex text-[15px] ml-3 option">
                   Popularity
                 </p>
-                <p className=" lg:text-[20px]  lg:ml-6 low flex text-[15px] ml-3">
+                <p className=" lg:text-[20px]  lg:ml-6 low flex text-[15px] ml-3 option">
                   New Arrival
                 </p>
               </div>

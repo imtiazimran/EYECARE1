@@ -27,7 +27,7 @@ export const BuyNow = () => {
 export const ResetFilter = () => {
   return (
     <>
-      <button className=" resetbtn p-5 border border-red-200 w-[45%] ml-[2.5%] ">
+      <button className=" resetbtn p-5 border  w-[45%] ml-[2.5%] ">
         {" "}
         Reset Filter{" "}
       </button>
