@@ -110,3 +110,26 @@
 .short {
     font-weight: 600;
 }
+
+.filterOption {
+    color: #000;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Poppins;
+    /* font-size: 24px; */
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: 21px; */
+    /* 87.5% */
+    letter-spacing: -0.32px;
+    background-color: #D9D9D9;
+
+}
+
+.filtersingle {
+    padding: 20px;
+}
+
+.filtersingle:hover {
+    background-color: white;
+}

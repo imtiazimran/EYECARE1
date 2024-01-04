@@ -89,19 +89,55 @@ const WISHLIST = () => {
                 <img src={svgpath} alt="Filter SVG" />
                 <p className=" lg:ml-[7%]  lg:text-[20px]  ml-3">Filter</p>
               </div>
-              {true && (
-                <div className="  border  border-red-300 mb-3 absolute z-20 bg-white right-0  top-[100%]  p-5">
-                  <hr className=" border-black mb-4" />
-                  <span>
-                    <ResetFilter />
-                    <ApplyFilter />
-                  </span>
-                </div>
-              )}
+              <div className="">
+                {isOpen && (
+                  <div className="  border  border-red-300 mb-3 absolute z-20 bg-white right-0  top-[100%] w-[50%]  ">
+                    <span className=" ">
+                      <hr className=" border-black mb-4 p-0" />
+                      <ResetFilter />
+                      <ApplyFilter />
+                      <hr className=" border-black mt-4 p-0  w-full" />
+                    </span>
+                    <div className=" ">
+                      <ul
+                        className=" 
+                       w-[45%]  border  border-b-black filterOption "
+                      >
+                        <li className=" w-full border border-b-black   text-center filtersingle">
+                          Price
+                        </li>
+                        <li className="  w-full border  border-b-black text-center filtersingle">
+                          Gender
+                        </li>
+                        <li className="  w-full border  border-b-black filtersingle text-center">
+                          Brand
+                        </li>
+                        <li className="  w-full border  border-b-black   text-center filtersingle">
+                          Frame size
+                        </li>
+                        <li className="  w-full border  border-b-black  text-center filtersingle">
+                          Frame Color{" "}
+                        </li>
+                        <li className="  w-full border border-b-black   text-center filtersingle">
+                          Shape & Style
+                        </li>
+                        <li className="  w-full border border-b-black  text-center filtersingle">
+                          Material
+                        </li>
+                        <li className="  w-full border  border-b-black text-center filtersingle ">
+                          Weight
+                        </li>
+                        <li className="  w-full border border-b-black text-center filtersingle">
+                          Collection
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                )}
+              </div>
             </div>
+            <ADDTOBAG></ADDTOBAG>
           </div>
-
-          <ADDTOBAG></ADDTOBAG>
         </div>
         <Footer></Footer>
       </div>

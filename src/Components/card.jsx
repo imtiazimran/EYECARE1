@@ -529,7 +529,7 @@ export const ADDTOBAG = () => {
             image={card.imageUrl}
             name={card.name}
             size={card.size}
-            star={card.size}
+            star={card.star}
             review={card.review}
             price={card.price}
           />

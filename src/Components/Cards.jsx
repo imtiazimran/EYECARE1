@@ -166,7 +166,7 @@ export const AddTobag_item = ({ image, name, size, star, review, price }) => {
         <p className=" font-semibold addtobagpadding ">{name}</p>
         <p className=" mt-4 ">
           <span className=" text-xl addtobagpadding ">{size}</span>
-          <span className=" absolute  right-[5%] text-sm">
+          <span className=" absolute  right-[5%] text-sm  priceAndrating">
             ⭐{star}/{review}
           </span>
         </p>
