@@ -101,7 +101,7 @@ const WISHLIST = () => {
                     <div className=" ">
                       <ul
                         className=" 
-                       w-[45%]  border  border-b-black filterOption "
+                       w-[45%]  filterOption "
                       >
                         <li className=" w-full border border-b-black   text-center filtersingle">
                           Price
@@ -127,7 +127,7 @@ const WISHLIST = () => {
                         <li className="  w-full border  border-b-black text-center filtersingle ">
                           Weight
                         </li>
-                        <li className="  w-full border border-b-black text-center filtersingle">
+                        <li className="  w-full  text-center filtersingle">
                           Collection
                         </li>
                       </ul>
