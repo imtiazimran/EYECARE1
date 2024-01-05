@@ -1,10 +1,8 @@
 /* eslint-disable react-refresh/only-export-components */
-// import { BELOWNAVIGATION } from "../Components/shopnv";
+
 import BELOWNAVIGATION from "../Components/shopnv";
 import { HEROIMAGE } from "../Components/NextHeader";
-//  import  ISLIDER  from""
 import { SRK } from "../Components/card";
-// import { HOMESTR } from "../Components/Store/Homestore";
 import Card from "../Components/card";
 import { Middle } from "../Components/Cards";
 import { SCOCIALMEDIAINFLUNCER } from "../Components/card";
@@ -13,6 +11,7 @@ import { POPULAR } from "../Components/card";
 import { MOBILEPOPULAR } from "../Components/card";
 import { MobileStyleMe } from "../Components/card";
 import { FooterImage } from "../Components/Cards";
+import { Footer } from "../Components/footer";
 import ISLIDER from "../Components/Islider";
 const HOME = () => {
   return (
@@ -31,7 +30,7 @@ const HOME = () => {
           <TRENDING></TRENDING>
           <POPULAR></POPULAR>
           <FooterImage></FooterImage>
-          {/* <HOMESTR></HOMESTR> */}
+          <Footer></Footer>
         </div>
       </div>
     </>

@@ -1,7 +1,8 @@
 /* eslint-disable no-unused-vars */
 
 import "./App.css";
-import { BIGSCREENSTORE } from "./Components/Store/BigScreenStore";
+// import { BIGSCREENSTORE } from "./Components/Store/BigScreenStore";
+import HOME from "./Pages/Home.jsx";
 import React from "react";
 // import ABOUT from "./Components/About.jsx";
 // import ABOUT from "./Components/About.jsx";
@@ -24,7 +25,7 @@ function App() {
           <NAVBAR></NAVBAR>
 
           <Routes>
-            <Route path="/" element={<BIGSCREENSTORE />} />
+            <Route path="/" element={<HOME />} />
             <Route path="/about" element={<ABOUT />} />
             <Route path="/contact" element={<CONTACT />} />
             Navbar are not call HERE

@@ -23,7 +23,6 @@ const ABOUT = () => {
   return (
     <>
       <BELOWNAVIGATION></BELOWNAVIGATION>
-
       <div className=" hidden sm:block ">
         <hr className="  bg-black" />
         <div className="justify-evenly">
