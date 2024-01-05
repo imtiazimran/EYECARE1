@@ -55,14 +55,12 @@ const WISHLIST = () => {
           <h1 className="   mt-6 w-[97%] text p-[1%]  ">
             Showing results according to your prenscription{" "}
           </h1>
+
           <div
             className=" mt-[2%] bg-white
       hidden sm:block w-[97%]"
           >
-            <div
-              onClick={() => console.log("Short ")}
-              className=" flex  align   text-2xl justify-evenly  w-full p-3   filter relative "
-            >
+            <div className=" flex  align   text-2xl justify-evenly  w-full p-3   filter relative ">
               <div className="flex w-[28%]">
                 <FaFilter className="short text-[25px]" />
                 <p className="text-[20px] Shorting ml-[5%]  short "> Short</p>
@@ -89,16 +87,16 @@ const WISHLIST = () => {
                 <img src={svgpath} alt="Filter SVG" />
                 <p className=" lg:ml-[7%]  lg:text-[20px]  ml-3">Filter</p>
               </div>
-              <div className="">
+
+              {/* <div className="">
                 {isOpen && (
                   <div className="  border  border-red-300 mb-3 absolute z-20 bg-white right-0  top-[100%] w-[50%]  ">
-                    <span className=" ">
-                      <hr className=" border-black mb-4 p-0" />
-                      <ResetFilter />
-                      <ApplyFilter />
-                      <hr className=" border-black mt-4 p-0  w-full" />
-                    </span>
-                    <div className=" ">
+                    <hr className=" border-black mb-4 p-0" />
+                    <ResetFilter />
+                    <ApplyFilter />
+                    <hr className=" border-black mt-4 p-0  w-full" />
+
+                    <div className="bg-red-300 h-[100vh]">
                       <ul
                         className=" 
                        w-[45%]  filterOption "
@@ -134,9 +132,61 @@ const WISHLIST = () => {
                     </div>
                   </div>
                 )}
-              </div>
+              </div> */}
             </div>
-            <ADDTOBAG></ADDTOBAG>
+
+            <div className="   ">
+              <div className="">
+                {isOpen && (
+                  <div
+                    className=" mb-3 absolute z-20 bg-white 
+                  right-[4%] w-[50%] 
+                  h-[85%]   lg:h-[130%]"
+                  >
+                    <hr className=" border-black mb-4 p-0" />
+                    <ResetFilter />
+                    <ApplyFilter />
+                    <hr className=" border-black mt-4 p-0  w-full" />
+
+                    <div className=" bg-white h-full">
+                      <ul
+                        className=" 
+                       w-[45%]  filterOption h-full "
+                      >
+                        <li className=" w-full border border-b-black   text-center filtersingle">
+                          Price
+                        </li>
+                        <li className="  w-full border  border-b-black text-center filtersingle">
+                          Gender
+                        </li>
+                        <li className="  w-full border  border-b-black filtersingle text-center">
+                          Brand
+                        </li>
+                        <li className="  w-full border  border-b-black   text-center filtersingle">
+                          Frame size
+                        </li>
+                        <li className="  w-full border  border-b-black  text-center filtersingle">
+                          Frame Color{" "}
+                        </li>
+                        <li className="  w-full border border-b-black   text-center filtersingle">
+                          Shape & Style
+                        </li>
+                        <li className="  w-full border border-b-black  text-center filtersingle">
+                          Material
+                        </li>
+                        <li className="  w-full border  border-b-black text-center filtersingle ">
+                          Weight
+                        </li>
+                        <li className="  w-full  text-center filtersingle">
+                          Collection
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                )}
+              </div>
+              <ADDTOBAG></ADDTOBAG>
+            </div>
           </div>
         </div>
         <Footer></Footer>
