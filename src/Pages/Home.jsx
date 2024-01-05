@@ -13,11 +13,13 @@ import { MobileStyleMe } from "../Components/card";
 import { FooterImage } from "../Components/Cards";
 import { Footer } from "../Components/footer";
 import ISLIDER from "../Components/Islider";
+import NAVBAR from "../Components/Navbar";
 const HOME = () => {
   return (
     <>
       <div className="z-0">
         <div>
+          <NAVBAR></NAVBAR>
           <BELOWNAVIGATION></BELOWNAVIGATION>
           <HEROIMAGE></HEROIMAGE>
           <ISLIDER></ISLIDER>

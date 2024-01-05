@@ -1,5 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
-
+import NAVBAR from "../Components/Navbar";
 import BELOWNAVIGATION from "../Components/shopnv";
 
 import FIRST from "../Components/images/Aboutus/First.png";
@@ -22,6 +22,7 @@ import { Footer } from "../Components/footer";
 const ABOUT = () => {
   return (
     <>
+      <NAVBAR></NAVBAR>
       <BELOWNAVIGATION></BELOWNAVIGATION>
       <div className=" hidden sm:block ">
         <hr className="  bg-black" />

@@ -1,12 +1,14 @@
 /* eslint-disable react-refresh/only-export-components */
 import { FaPen } from "react-icons/fa6";
 import { RiDeleteBin6Line } from "react-icons/ri";
+import NAVBAR from "../Navbar";
 
 import { Footer } from "../footer";
 // eslint-disable-next-line no-unused-vars, react/prop-types
 const PROFILE = () => {
   return (
     <>
+      <NAVBAR></NAVBAR>
       <div className=" flex mt-16">
         <ul className=" bg-white w-[15%]  mr-3 text-center profile-card   text-xl  ">
           <li className=" p-4 card-text ">
