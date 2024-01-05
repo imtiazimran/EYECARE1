@@ -14,7 +14,8 @@ import PROFILE from "./Components/PROFILE/Profile.jsx";
 import NAVBAR from "./Components/Navbar.jsx";
 import TERMANDCONDITION from "./Pages/TermandCondition.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
+import { RiH1 } from "react-icons/ri";
+import ErrorPage from "./Pages/Error.jsx";
 function App() {
   return (
     <>
@@ -26,11 +27,13 @@ function App() {
             <Route path="/" element={<BIGSCREENSTORE />} />
             <Route path="/about" element={<ABOUT />} />
             <Route path="/contact" element={<CONTACT />} />
+            Navbar are not call HERE
             <Route path="/bell" element={<Bell />} />
             <Route path="/cart" element={<CART />} />
             <Route path="/wishList" element={<WISHLIST />} />
             <Route path="/userProfile" element={<PROFILE />} />
             <Route path="/Condition" element={<TERMANDCONDITION />} />
+            <Route path="*" element={<ErrorPage />} />
           </Routes>
         </BrowserRouter>
       </div>
