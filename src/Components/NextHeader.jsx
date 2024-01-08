@@ -12,6 +12,7 @@ import Man from "./Images/Slide/Rectangle 2805.png";
 import Girl from "./Images/Slide/Rectangle 2807.png";
 import { Link } from "react-router-dom";
 import { StyleMebtn } from "./Butttons/button";
+
 const NEXTHEADER = () => {
   return (
     <>

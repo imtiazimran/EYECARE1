@@ -6,7 +6,7 @@ import ImageHeart from "./Images/Nav/Union.svg";
 import ImageCart from "./Images/Nav/Group 2980.svg";
 import BellImage from "./Images/Nav/Bell_icon.svg";
 import Profile from "./Images/Nav/man.svg";
-import NEXTHEADER from "./NextHeader";
+// import NEXTHEADER from "./NextHeader";
 // import "style.css";
 const NAVBAR = () => {
   const [showComponent, setshowComponent] = useState(false);
@@ -200,7 +200,7 @@ const NAVBAR = () => {
               </ul>
             </div>
           </div>
-          {showComponent && <NEXTHEADER></NEXTHEADER>}
+          {/* {showComponent && <NEXTHEADER/>} */}
         </nav>
       </div>
     </>
