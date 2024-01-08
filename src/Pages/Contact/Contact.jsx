@@ -1,8 +1,11 @@
 /* eslint-disable react-refresh/only-export-components */
 
 // import { BELOWNAVIGATION } from "../shopnv";
-import { Footer } from "../footer";
-import Navbar from "../Navbar";
+// import { Footer } from "../footer";
+// import Footer from "../footer";
+import Navbar from "../../Components/Navbar";
+// import Navbar from "../Navbar";
+import Footer from "../../Components/footer";
 // import { Footer } from "../../Pages/footer";
 const CONTACT = () => {
   return (

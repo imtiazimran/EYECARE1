@@ -1,7 +1,8 @@
 /* eslint-disable react-refresh/only-export-components */
 import "./Pages.css";
 import ShopNavigation from "../Components/shopnv";
-import { Footer } from "../Components/footer";
+// import { Footer } from "../Components/footer";
+import Footer from "../Components/footer";
 import Accordian from "./Accordian";
 import Navbar from "../Components/Navbar";
 

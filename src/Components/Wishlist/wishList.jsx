@@ -7,7 +7,8 @@ import Navbar from "../Navbar";
 import "./wishlist.css";
 import { ResetFilter, ApplyFilter } from "../Butttons/button";
 import ShopNavigation from "../shopnv";
-import { Footer } from "../footer";
+// import { Footer } from "../footer";
+import Footer from "../footer";
 // const svgPath = process.env.PUBLIC_URL + "/filter.svg";
 import svgpath from "/__.svg";
 

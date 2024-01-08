@@ -200,7 +200,6 @@ const Navbar = () => {
               </ul>
             </div>
           </div>
-          {/* {showComponent && <NEXTHEADER/>} */}
         </nav>
       </div>
     </>

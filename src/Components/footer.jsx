@@ -4,7 +4,7 @@ import Rayban from "./images/footer/image 59.png";
 import Calven from "./images/footer/image 60.png";
 import Titan from "./images/footer/image 61.png";
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <>
       <div className="sm:w-full  mt-4 bg-white   p-1 sm:pl-3 sm:pt-3  sm:h-[20vh] space-x-4   hidden  sm:flex items-center  align-center    ">
@@ -169,3 +169,4 @@ export const Footer = () => {
     </>
   );
 };
+export default Footer;

@@ -11,10 +11,10 @@ import { Popular } from "../Components/card";
 import { MobilePopular } from "../Components/card";
 import { MobileStyleMe } from "../Components/card";
 import { FooterImage } from "../Components/Cards";
-// import { Footer } from "../Components/footer";
-import Footer from "../Components/footer";
+
+import Footer from "../../Components/footer";
 // import Isslider from "../Components/Islider";
-import Isslider from "./Home/Components/Islider";
+import Isslider from "./Components/Islider";
 import Navbar from "../Components/Navbar";
 const HOME = () => {
   return (

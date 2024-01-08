@@ -1,24 +1,42 @@
 /* eslint-disable react-refresh/only-export-components */
-import Navbar from "../Components/Navbar";
-import ShopNavigation from "../Components/shopnv";
+// import Navbar from "../Components/Navbar";
+import Navbar from "../../Components/Navbar";
+import ShopNavigation from "../../Components/shopnv";
 
-import FIRST from "../Components/images/Aboutus/First.png";
-import SECOND from "../Components/images/Aboutus/Second.png";
+// import FIRST from "../../Components/images/Aboutus/First.png";
+import FIRST from "./Aboutus/First.png";
 
-import THIRD from "../Components/images/Aboutus/Third.png";
+// import SECOND from "../../Components/images/Aboutus/Second.png";
+import SECOND from "./Aboutus/Second.png";
 
-import FORTH from "../Components/images/Aboutus/Forth.png";
-import video from "../Components/images/Aboutus/five.png";
-import FIVE from "../Components/images/Aboutus/Rectangle 2959.png";
-import SIX from "../Components/images/Aboutus/Rectangle 2960.png";
-import SEVEN from "../Components/images/Aboutus/Rectangle 2962.png";
+// import THIRD from "../../Components/images/Aboutus/Third.png";
+import THIRD from "./Aboutus/Third.png";
 
-import { TeamMember } from "../Components/card";
+// import FORTH from "../../Components/images/Aboutus/Forth.png";
+import FORTH from "./Aboutus/Forth.png";
 
-import { Hering } from "../Components/card";
+// import video from "../../Components/images/Aboutus/five.png";
+import video from "./Aboutus/five.png";
 
-import { JobCategories } from "../Components/card";
-import { Footer } from "../Components/footer";
+// import FIVE from "../../Components/images/Aboutus/Rectangle 2959.png";
+import FIVE from "./Aboutus/Rectangle 2959.png";
+
+// import SIX from "../../Components/images/Aboutus/Rectangle 2960.png";
+import SIX from "./Aboutus/Rectangle 2960.png";
+
+// import SEVEN from "../../Components/images/Aboutus/Rectangle 2962.png";
+import SEVEN from "./Aboutus/Rectangle 2962.png";
+
+// import { TeamMember } from "../../Components/card";
+import { TeamMember } from "../../Components/card";
+
+import { Hering } from "../../Components/card";
+
+import { JobCategories } from "../../Components/card";
+// import { Footer } from "../Components/footer";
+// import Footer from "../Components/footer";
+import Footer from "../../Components/footer";
+
 const ABOUT = () => {
   return (
     <>

@@ -3,11 +3,10 @@
 /* eslint-disable no-unused-vars */
 
 import React, { useEffect, useState } from "react";
-import FIRST from "./images/Slider/first.png";
-import SECOND from "./images/Slider/Second.png";
 
-import THIRD from "./images/Slider/third.png";
-
+import FIRST from "../Images/Slider/first.png";
+import SECOND from "../Images/Slider/Second.png";
+import THIRD from "../Images/Slider/third.png";
 const Isslider = () => {
   const [allImages, setallImages] = useState([FIRST, SECOND, THIRD]);
   const [selectedImage, setSelectedImage] = useState(0);

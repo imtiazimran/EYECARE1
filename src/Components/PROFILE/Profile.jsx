@@ -3,7 +3,8 @@
 // import { RiDeleteBin6Line } from "react-icons/ri";
 import Navbar from "../Navbar";
 
-import { Footer } from "../footer";
+// import { Footer } from "../footer";
+import Footer from "../footer";
 // eslint-disable-next-line no-unused-vars, react/prop-types
 const PROFILE = () => {
   return (
