@@ -3,13 +3,18 @@ import "./Pages.css";
 import BELOWNAVIGATION from "../Components/shopnv";
 import { Footer } from "../Components/footer";
 import ACCORDIAN from "./Accordian";
+import NAVBAR from "../Components/Navbar";
+
 const TERMANDCONDITION = () => {
   return (
     <>
       <div>
+        <NAVBAR />
         <BELOWNAVIGATION />
         <div>
-          <h1 className=" text-center termsAndCondition">Tems & Conditions </h1>
+          <h1 className=" text-center termsAndCondition">
+            Terms & Conditions{" "}
+          </h1>
           <ol className="   m-[3vw]">
             <li className="  mt-[3vh]">
               {" "}
@@ -89,9 +94,9 @@ const TERMANDCONDITION = () => {
         <div>
           <hr className=" bg-black h-1  mt-[3vh]" />
           <h1 className=" text-center termsAndCondition">FAQ</h1>
-          <ACCORDIAN></ACCORDIAN>
+          <ACCORDIAN />
         </div>
-        <Footer></Footer>
+        <Footer />
       </div>
     </>
   );

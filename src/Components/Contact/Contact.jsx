@@ -8,11 +8,11 @@ const CONTACT = () => {
   return (
     <>
       {/* <BELOWNAVIGATION></BELOWNAVIGATION> */}
-      <NAVBAR></NAVBAR>
+      <NAVBAR />
       <h1 className="text-3xl text-center  text-red-700 ">
         This is an our contact Section{" "}
       </h1>
-      <Footer></Footer>
+      <Footer />
     </>
   );
 };

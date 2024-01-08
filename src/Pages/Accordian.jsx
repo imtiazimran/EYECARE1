@@ -41,9 +41,7 @@ const ACCORDIAN = () => {
           key={data.id}
           question={data.question}
           answer={data.answer}
-        >
-          {" "}
-        </MYACCORDIAN>
+        />
       ))}
     </div>
   );

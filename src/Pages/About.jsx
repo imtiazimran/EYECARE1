@@ -22,8 +22,8 @@ import { Footer } from "../Components/footer";
 const ABOUT = () => {
   return (
     <>
-      <NAVBAR></NAVBAR>
-      <BELOWNAVIGATION></BELOWNAVIGATION>
+      <NAVBAR />
+      <BELOWNAVIGATION />
       <div className=" hidden sm:block ">
         <hr className="  bg-black" />
         <div className="justify-evenly">
@@ -98,7 +98,7 @@ const ABOUT = () => {
             <img src={SEVEN} alt="" className="w-[33vw]" />
           </div>
         </div>
-        <TEAMMEMBER></TEAMMEMBER>
+        <TEAMMEMBER />
 
         <h1 className="text-center text-3xl border-red-300 mt-[5vh] mb-[5vh]">
           We are Hiring{" "}
@@ -108,10 +108,10 @@ const ABOUT = () => {
           Job Categories
         </span>
         <div className=" flex">
-          <HEIRING></HEIRING>
-          <JOBCATEGORIES></JOBCATEGORIES>
+          <HEIRING />
+          <JOBCATEGORIES />
         </div>
-        <Footer></Footer>
+        <Footer />
       </div>
     </>
   );

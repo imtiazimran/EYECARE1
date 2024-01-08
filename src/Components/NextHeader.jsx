@@ -131,7 +131,7 @@ export const HEROIMAGE = () => {
             <p className="text-2xl  font-semibold">Limited Period Offer</p>
 
             <p className="pt-4  font-bold">BUY TWO AND GET ONE FREE</p>
-            <StyleMebtn></StyleMebtn>
+            <StyleMebtn />
           </div>
         </div>
 

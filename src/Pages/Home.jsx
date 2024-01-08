@@ -19,20 +19,20 @@ const HOME = () => {
     <>
       <div className="z-0">
         <div>
-          <NAVBAR></NAVBAR>
-          <BELOWNAVIGATION></BELOWNAVIGATION>
-          <HEROIMAGE></HEROIMAGE>
-          <ISLIDER></ISLIDER>
-          <Card></Card>
-          <Middle></Middle>
-          <SRK></SRK>
-          <MobileStyleMe></MobileStyleMe>
-          <MOBILEPOPULAR></MOBILEPOPULAR>
-          <SCOCIALMEDIAINFLUNCER></SCOCIALMEDIAINFLUNCER>
-          <TRENDING></TRENDING>
-          <POPULAR></POPULAR>
-          <FooterImage></FooterImage>
-          <Footer></Footer>
+          <NAVBAR />
+          <BELOWNAVIGATION />
+          <HEROIMAGE />
+          <ISLIDER />
+          <Card />
+          <Middle />
+          <SRK />
+          <MobileStyleMe />
+          <MOBILEPOPULAR />
+          <SCOCIALMEDIAINFLUNCER />
+          <TRENDING />
+          <POPULAR />
+          <FooterImage />
+          <Footer />
         </div>
       </div>
     </>

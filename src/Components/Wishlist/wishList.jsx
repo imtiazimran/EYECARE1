@@ -3,6 +3,7 @@
 import { FaFilter } from "react-icons/fa";
 import { useState } from "react";
 import NAVBAR from "../Navbar";
+
 import "./wishlist.css";
 import { ResetFilter, ApplyFilter } from "../Butttons/button";
 import BELOWNAVIGATION from "../shopnv";
@@ -21,8 +22,8 @@ const WISHLIST = () => {
   return (
     <>
       <div>
-        <NAVBAR></NAVBAR>
-        <BELOWNAVIGATION></BELOWNAVIGATION>
+        <NAVBAR />
+        <BELOWNAVIGATION />
         <div className=" hidden sm:block">
           <div className=" hidden sm:flex relative m-[1vw]">
             <img
@@ -186,11 +187,11 @@ const WISHLIST = () => {
                   </div>
                 )}
               </div>
-              <ADDTOBAG></ADDTOBAG>
+              <ADDTOBAG />
             </div>
           </div>
         </div>
-        <Footer></Footer>
+        <Footer />
       </div>
     </>
   );
