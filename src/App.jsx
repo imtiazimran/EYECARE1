@@ -20,10 +20,12 @@ import WISHLIST from "./Components/Wishlist/wishList.jsx";
 // import PROFILE from "./Components/PROFILE/Profile.jsx";
 import PROFILE from "./Pages/PROFILE/Profile.jsx";
 import NAVBAR from "./Components/Navbar.jsx";
-import TERMANDCONDITION from "./Pages/TermandCondition.jsx";
+// import TERMANDCONDITION from "./Pages/TermandCondition.jsx";
+import TERMANDCONDITION from "./Components/TermAndCondition/TermandCondition.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { RiH1 } from "react-icons/ri";
-import ErrorPage from "./Pages/Error.jsx";
+// import ErrorPage from "./Pages/Error.jsx";
+import ErrorPage from "./Components/Error/Error.jsx";
 function App() {
   return (
     <>
