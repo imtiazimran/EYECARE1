@@ -7,8 +7,8 @@ import ImageCart from "./Images/Nav/Group 2980.svg";
 import BellImage from "./Images/Nav/Bell_icon.svg";
 import Profile from "./Images/Nav/man.svg";
 // import NEXTHEADER from "./NextHeader";
-// import "style.css";
-const NAVBAR = () => {
+
+const Navbar = () => {
   const [showComponent, setshowComponent] = useState(false);
   const handleClicked = () => {
     setshowComponent(!showComponent);
@@ -206,4 +206,4 @@ const NAVBAR = () => {
     </>
   );
 };
-export default NAVBAR;
+export default Navbar;

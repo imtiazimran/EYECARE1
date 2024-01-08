@@ -41,7 +41,7 @@ export default Card;
 
 //  ALL SRK MOVIE PICK CARD HERE
 //  HERE ALL SCREEN IS SPECIFICLY FOR LAPTOPS
-export const SRK = () => {
+export const Srk = () => {
   const cardData = [
     {
       id: 1,
@@ -94,7 +94,7 @@ export const MobileStyleMe = () => {
   );
 };
 // ALL INFLUENCER  PICK ACRD HERE
-export const SCOCIALMEDIAINFLUNCER = () => {
+export const ScocialMediaInfluncer = () => {
   const cardData = [
     {
       id: 1,
@@ -135,7 +135,7 @@ export const SCOCIALMEDIAINFLUNCER = () => {
 };
 
 // TRENDING COLLECTIONS
-export const TRENDING = () => {
+export const Trending = () => {
   const cardData = [
     {
       id: 1,
@@ -176,7 +176,7 @@ export const TRENDING = () => {
 };
 
 //   POPULAR PRODUCT HERE
-export const POPULAR = () => {
+export const Popular = () => {
   const cardData = [
     {
       id: 1,
@@ -224,7 +224,7 @@ export const POPULAR = () => {
 };
 //
 //   POPULAR PRODUCT HERE FOR MOBILE SCREEN
-export const MOBILEPOPULAR = () => {
+export const MobilePopular = () => {
   const cardData = [
     {
       id: 1,

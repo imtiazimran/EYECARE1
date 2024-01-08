@@ -1,36 +1,37 @@
 /* eslint-disable react-refresh/only-export-components */
 
-import BELOWNAVIGATION from "../Components/shopnv";
-import { HEROIMAGE } from "../Components/NextHeader";
-import { SRK } from "../Components/card";
+import ShopNavigation from "../Components/shopnv";
+import { HeroImage } from "../Components/NextHeader";
+import { Srk } from "../Components/card";
 import Card from "../Components/card";
 import { Middle } from "../Components/Cards";
-import { SCOCIALMEDIAINFLUNCER } from "../Components/card";
-import { TRENDING } from "../Components/card";
-import { POPULAR } from "../Components/card";
-import { MOBILEPOPULAR } from "../Components/card";
+import { ScocialMediaInfluncer } from "../Components/card";
+import { Trending } from "../Components/card";
+import { Popular } from "../Components/card";
+import { MobilePopular } from "../Components/card";
 import { MobileStyleMe } from "../Components/card";
 import { FooterImage } from "../Components/Cards";
 import { Footer } from "../Components/footer";
-import ISLIDER from "../Components/Islider";
-import NAVBAR from "../Components/Navbar";
+import Isslider from "../Components/Islider";
+
+import Navbar from "../Components/Navbar";
 const HOME = () => {
   return (
     <>
       <div className="z-0">
         <div>
-          <NAVBAR />
-          <BELOWNAVIGATION />
-          <HEROIMAGE />
-          <ISLIDER />
+          <Navbar />
+          <ShopNavigation />
+          <HeroImage />
+          <Isslider />
           <Card />
           <Middle />
-          <SRK />
+          <Srk />
           <MobileStyleMe />
-          <MOBILEPOPULAR />
-          <SCOCIALMEDIAINFLUNCER />
-          <TRENDING />
-          <POPULAR />
+          <MobilePopular />
+          <ScocialMediaInfluncer />
+          <Trending />
+          <Popular />
           <FooterImage />
           <Footer />
         </div>

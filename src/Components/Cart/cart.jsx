@@ -1,7 +1,7 @@
 import { Footer } from "../footer";
 import NAVBAR from "../Navbar";
 
-export const CART = () => {
+export const Cart = () => {
   return (
     <>
       <NAVBAR />

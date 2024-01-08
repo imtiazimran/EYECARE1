@@ -9,7 +9,7 @@ import React from "react";
 import ABOUT from "./Pages/About.jsx";
 import CONTACT from "./Components/Contact/Contact.jsx";
 import { Bell } from "./Components/Bell/bell.jsx";
-import { CART } from "./Components/Cart/cart.jsx";
+import { Cart } from "./Components/Cart/cart.jsx";
 import WISHLIST from "./Components/Wishlist/wishList.jsx";
 import PROFILE from "./Components/PROFILE/Profile.jsx";
 import NAVBAR from "./Components/Navbar.jsx";
@@ -30,7 +30,7 @@ function App() {
             <Route path="/contact" element={<CONTACT />} />
             Navbar are not call HERE
             <Route path="/bell" element={<Bell />} />
-            <Route path="/cart" element={<CART />} />
+            <Route path="/cart" element={<Cart />} />
             <Route path="/wishList" element={<WISHLIST />} />
             <Route path="/userProfile" element={<PROFILE />} />
             <Route path="/Condition" element={<TERMANDCONDITION />} />

@@ -2,7 +2,7 @@
 /* eslint-disable react/prop-types */
 import Camera from "./Images/Nav/Group 3154.svg";
 // eslint-disable-next-line no-unused-vars
-const BELOWNAVIGATION = () => {
+const ShopNavigation = () => {
   return (
     <>
       <div className=" bg-yellow-100 buy2get1  h-[7vh]  justify-center mt-3  items-center border sm:hidden flex">
@@ -108,4 +108,4 @@ const BELOWNAVIGATION = () => {
     </>
   );
 };
-export default BELOWNAVIGATION;
+export default ShopNavigation;

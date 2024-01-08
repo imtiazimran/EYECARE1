@@ -119,7 +119,7 @@ const NEXTHEADER = () => {
 export default NEXTHEADER;
 
 //   THIS IS OUR HERO IMAGES SECTION WHERE WE IMPUT THREE IMAGES
-export const HEROIMAGE = () => {
+export const HeroImage = () => {
   return (
     <>
       <div className=" sm:flex   sm:grid-cols-3 hero-color  hidden ">
