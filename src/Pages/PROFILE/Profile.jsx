@@ -1,10 +1,12 @@
 /* eslint-disable react-refresh/only-export-components */
 // import { FaPen } from "react-icons/fa6";
 // import { RiDeleteBin6Line } from "react-icons/ri";
-import Navbar from "../Navbar";
+// import Navbar from "../Navbar";
+import Navbar from "../../Components/Navbar";
 
 // import { Footer } from "../footer";
-import Footer from "../footer";
+// import Footer from "../footer";
+import Footer from "../../Components/footer";
 // eslint-disable-next-line no-unused-vars, react/prop-types
 const PROFILE = () => {
   return (
