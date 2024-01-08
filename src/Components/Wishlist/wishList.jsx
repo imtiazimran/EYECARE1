@@ -2,16 +2,16 @@
 /* eslint-disable react-refresh/only-export-components */
 import { FaFilter } from "react-icons/fa";
 import { useState } from "react";
-import NAVBAR from "../Navbar";
+import Navbar from "../Navbar";
 
 import "./wishlist.css";
 import { ResetFilter, ApplyFilter } from "../Butttons/button";
-import BELOWNAVIGATION from "../shopnv";
+import ShopNavigation from "../shopnv";
 import { Footer } from "../footer";
 // const svgPath = process.env.PUBLIC_URL + "/filter.svg";
 import svgpath from "/__.svg";
 
-import { ADDTOBAG } from "../card";
+import { AddToBag } from "../card";
 
 const WISHLIST = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,8 +22,8 @@ const WISHLIST = () => {
   return (
     <>
       <div>
-        <NAVBAR />
-        <BELOWNAVIGATION />
+        <Navbar />
+        <ShopNavigation />
         <div className=" hidden sm:block">
           <div className=" hidden sm:flex relative m-[1vw]">
             <img
@@ -187,7 +187,7 @@ const WISHLIST = () => {
                   </div>
                 )}
               </div>
-              <ADDTOBAG />
+              <AddToBag />
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
-import NAVBAR from "../Components/Navbar";
-import BELOWNAVIGATION from "../Components/shopnv";
+import Navbar from "../Components/Navbar";
+import ShopNavigation from "../Components/shopnv";
 
 import FIRST from "../Components/images/Aboutus/First.png";
 import SECOND from "../Components/images/Aboutus/Second.png";
@@ -13,17 +13,17 @@ import FIVE from "../Components/images/Aboutus/Rectangle 2959.png";
 import SIX from "../Components/images/Aboutus/Rectangle 2960.png";
 import SEVEN from "../Components/images/Aboutus/Rectangle 2962.png";
 
-import { TEAMMEMBER } from "../Components/card";
+import { TeamMember } from "../Components/card";
 
-import { HEIRING } from "../Components/card";
+import { Hering } from "../Components/card";
 
-import { JOBCATEGORIES } from "../Components/card";
+import { JobCategories } from "../Components/card";
 import { Footer } from "../Components/footer";
 const ABOUT = () => {
   return (
     <>
-      <NAVBAR />
-      <BELOWNAVIGATION />
+      <Navbar />
+      <ShopNavigation />
       <div className=" hidden sm:block ">
         <hr className="  bg-black" />
         <div className="justify-evenly">
@@ -98,7 +98,7 @@ const ABOUT = () => {
             <img src={SEVEN} alt="" className="w-[33vw]" />
           </div>
         </div>
-        <TEAMMEMBER />
+        <TeamMember />
 
         <h1 className="text-center text-3xl border-red-300 mt-[5vh] mb-[5vh]">
           We are Hiring{" "}
@@ -108,8 +108,8 @@ const ABOUT = () => {
           Job Categories
         </span>
         <div className=" flex">
-          <HEIRING />
-          <JOBCATEGORIES />
+          <Hering />
+          <JobCategories />
         </div>
         <Footer />
       </div>

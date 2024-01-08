@@ -1,7 +1,7 @@
 /* eslint-disable react-refresh/only-export-components */
 import { MYACCORDIAN } from "./myAccordian";
 
-const ACCORDIAN = () => {
+const Accordian = () => {
   const Question = [
     {
       id: 1,
@@ -47,4 +47,4 @@ const ACCORDIAN = () => {
   );
 };
 
-export default ACCORDIAN;
+export default Accordian;

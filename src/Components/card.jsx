@@ -272,7 +272,7 @@ export const MobilePopular = () => {
 };
 
 //  IN ABOUT SECTION TEAMMMEMBER INTRO  HERE
-export const TEAMMEMBER = () => {
+export const TeamMember = () => {
   const cardData = [
     {
       id: 1,
@@ -343,7 +343,7 @@ export const TEAMMEMBER = () => {
   );
 };
 //  THIS IS OUR ABOUT HEIRING CARD
-export const HEIRING = () => {
+export const Hering = () => {
   const cardData = [
     {
       id: 1,
@@ -394,7 +394,7 @@ export const HEIRING = () => {
   );
 };
 //  THIS IS ALSO
-export const JOBCATEGORIES = () => {
+export const JobCategories = () => {
   // eslint-disable-next-line no-unused-vars
   const cardData = [
     {
@@ -433,7 +433,7 @@ export const JOBCATEGORIES = () => {
   );
 };
 
-export const ADDTOBAG = () => {
+export const AddToBag = () => {
   const cardData = [
     {
       id: 1,

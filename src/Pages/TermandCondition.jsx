@@ -1,16 +1,16 @@
 /* eslint-disable react-refresh/only-export-components */
 import "./Pages.css";
-import BELOWNAVIGATION from "../Components/shopnv";
+import ShopNavigation from "../Components/shopnv";
 import { Footer } from "../Components/footer";
-import ACCORDIAN from "./Accordian";
-import NAVBAR from "../Components/Navbar";
+import Accordian from "./Accordian";
+import Navbar from "../Components/Navbar";
 
 const TERMANDCONDITION = () => {
   return (
     <>
       <div>
-        <NAVBAR />
-        <BELOWNAVIGATION />
+        <Navbar />
+        <ShopNavigation />
         <div>
           <h1 className=" text-center termsAndCondition">
             Terms & Conditions{" "}
@@ -94,7 +94,7 @@ const TERMANDCONDITION = () => {
         <div>
           <hr className=" bg-black h-1  mt-[3vh]" />
           <h1 className=" text-center termsAndCondition">FAQ</h1>
-          <ACCORDIAN />
+          <Accordian />
         </div>
         <Footer />
       </div>
