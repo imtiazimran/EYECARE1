@@ -7,7 +7,6 @@ import { Bell } from "../Pages/Bell/bell.jsx";
 import { Cart } from "../Pages/Cart/cart.jsx";
 import WISHLIST from "../Pages/Wishlist/wishList.jsx";
 import PROFILE from "../Pages/PROFILE/Profile.jsx";
-
 import Navbar from "../Components/Navbar.jsx";
 
 import TERMANDCONDITION from "../Components/TermAndCondition/TermandCondition.jsx";
@@ -20,8 +19,6 @@ function Routers() {
     <>
       <div>
         <BrowserRouter>
-          {/* <NAVBAR></NAVBAR> */}
-
           <Routes>
             <Route path="/" element={<HOME />} />
             <Route path="/about" element={<ABOUT />} />
