@@ -2,18 +2,13 @@
 /* eslint-disable react-refresh/only-export-components */
 import { FaFilter } from "react-icons/fa";
 import { useState } from "react";
-import Navbar from "../Navbar";
-
+import Navbar from "../../Components/Navbar";
 import "./wishlist.css";
-import { ResetFilter, ApplyFilter } from "../Butttons/button";
-import ShopNavigation from "../shopnv";
-// import { Footer } from "../footer";
-import Footer from "../footer";
-// const svgPath = process.env.PUBLIC_URL + "/filter.svg";
+import { ResetFilter, ApplyFilter } from "../../Components/Butttons/button";
+import ShopNavigation from "../../Components/shopnv";
+import Footer from "../../Components/footer";
 import svgpath from "/__.svg";
-
-import { AddToBag } from "../card";
-
+import { AddToBag } from "../../Components/card";
 const WISHLIST = () => {
   const [isOpen, setIsOpen] = useState(false);
   const togglefilter = () => {
@@ -90,52 +85,6 @@ const WISHLIST = () => {
                 <img src={svgpath} alt="Filter SVG" />
                 <p className=" lg:ml-[7%]  lg:text-[20px]  ml-3">Filter</p>
               </div>
-
-              {/* <div className="">
-                {isOpen && (
-                  <div className="  border  border-red-300 mb-3 absolute z-20 bg-white right-0  top-[100%] w-[50%]  ">
-                    <hr className=" border-black mb-4 p-0" />
-                    <ResetFilter />
-                    <ApplyFilter />
-                    <hr className=" border-black mt-4 p-0  w-full" />
-
-                    <div className="bg-red-300 h-[100vh]">
-                      <ul
-                        className=" 
-                       w-[45%]  filterOption "
-                      >
-                        <li className=" w-full border border-b-black   text-center filtersingle">
-                          Price
-                        </li>
-                        <li className="  w-full border  border-b-black text-center filtersingle">
-                          Gender
-                        </li>
-                        <li className="  w-full border  border-b-black filtersingle text-center">
-                          Brand
-                        </li>
-                        <li className="  w-full border  border-b-black   text-center filtersingle">
-                          Frame size
-                        </li>
-                        <li className="  w-full border  border-b-black  text-center filtersingle">
-                          Frame Color{" "}
-                        </li>
-                        <li className="  w-full border border-b-black   text-center filtersingle">
-                          Shape & Style
-                        </li>
-                        <li className="  w-full border border-b-black  text-center filtersingle">
-                          Material
-                        </li>
-                        <li className="  w-full border  border-b-black text-center filtersingle ">
-                          Weight
-                        </li>
-                        <li className="  w-full  text-center filtersingle">
-                          Collection
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                )}
-              </div> */}
             </div>
 
             <div className="   ">

@@ -5,7 +5,7 @@ import ABOUT from "../Pages/About/About.jsx";
 import CONTACT from "../Pages/Contact/Contact.jsx";
 import { Bell } from "../Pages/Bell/bell.jsx";
 import { Cart } from "../Pages/Cart/cart.jsx";
-import WISHLIST from "../Components/Wishlist/wishList.jsx";
+import WISHLIST from "../Pages/Wishlist/wishList.jsx";
 import PROFILE from "../Pages/PROFILE/Profile.jsx";
 
 import Navbar from "../Components/Navbar.jsx";
