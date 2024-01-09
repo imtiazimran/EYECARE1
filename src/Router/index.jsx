@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import HOME from "../Pages/Home.jsx";
+// import HOME from "../Pages/Home/Home.jsx";
 import React from "react";
 import ABOUT from "../Pages/About/About.jsx";
 import CONTACT from "../Pages/Contact/Contact.jsx";
