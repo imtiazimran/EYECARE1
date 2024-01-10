@@ -1,0 +1,8 @@
+ .profilecard {
+     background-image: url('./images/Rectangle 2929.png');
+     color: red;
+     height: 45%;
+     flex-shrink: 0;
+
+
+ }
