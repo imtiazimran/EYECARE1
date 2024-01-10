@@ -2,13 +2,18 @@
 /* eslint-disable react-refresh/only-export-components */
 import { FaFilter } from "react-icons/fa";
 import { useState } from "react";
-import Navbar from "../../Components/Navbar";
+// import Navbar from "../../Components/Navbar";
+import Navbar from "../../Components/Header/Navbar";
 import "./wishlist.css";
 import { ResetFilter, ApplyFilter } from "../../Components/Butttons/button";
-import ShopNavigation from "../../Components/shopnv";
-import Footer from "../../Components/footer";
+// import ShopNavigation from "../../Components/shopnv";
+import ShopNavigation from "../../Components/Shopnav/shopnv";
+// import Footer from "../../Components/footer";
+import Footer from "../../Components/Footer/footer";
 import svgpath from "/__.svg";
-import { AddToBag } from "../../Components/card";
+
+// import { AddToBag } from "../../Components/card";
+import { AddToBag } from "./Components/AddToBag";
 const WISHLIST = () => {
   const [isOpen, setIsOpen] = useState(false);
   const togglefilter = () => {

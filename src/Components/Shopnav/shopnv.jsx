@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/prop-types */
-import Camera from "./Images/Nav/Group 3154.svg";
+import Camera from "./Images/Group 3154.svg";
 // eslint-disable-next-line no-unused-vars
 const ShopNavigation = () => {
   return (

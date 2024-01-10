@@ -3,10 +3,13 @@
 // import { RiDeleteBin6Line } from "react-icons/ri";
 import { IoMdAdd } from "react-icons/io";
 import "./Profile.css";
-import Navbar from "../../Components/Navbar";
+// import Navbar from "../../Components/Navbar";
+import Navbar from "../../Components/Header/Navbar";
 
-import Footer from "../../Components/footer";
-import ShopNavigation from "../../Components/shopnv";
+// import Footer from "../../Components/footer";
+import Footer from "../../Components/Footer/footer";
+// import ShopNavigation from "../../Components/shopnv";
+import ShopNavigation from "../../Components/Shopnav/shopnv";
 import UserProfileCard from "./Components/Profilecard";
 import UserAddressCard from "./Components/Useradrees";
 const PROFILE = () => {

@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
-
-import ShopNavigation from "../Components/shopnv";
+import Navbar from "../Components/Header/Navbar";
+import ShopNavigation from "../Components/Shopnav/shopnv";
 import { HeroImage } from "../Components/NextHeader";
 import { Srk } from "../Components/card";
 import Card from "../Components/card";
@@ -11,9 +11,11 @@ import { Popular } from "../Components/card";
 import { MobilePopular } from "../Components/card";
 import { MobileStyleMe } from "../Components/card";
 import { FooterImage } from "../Components/Cards";
-import Footer from "../Components/footer";
+// import Footer from "../Components/footer";
+import Footer from "../Components/Footer/footer";
 import Isslider from "./Home/Components/Islider";
-import Navbar from "../Components/Navbar";
+// import Navbar from "../Components/Navbar";
+
 const HOME = () => {
   return (
     <>

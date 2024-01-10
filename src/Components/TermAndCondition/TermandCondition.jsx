@@ -1,13 +1,16 @@
 /* eslint-disable react-refresh/only-export-components */
 import "./Pages.css";
 // import ShopNavigation from "../Components/shopnv";
-import ShopNavigation from "../shopnv";
+// import ShopNavigation from "../shopnv";
+import ShopNavigation from "../Shopnav/shopnv";
 // import { Footer } from "../Components/footer";
 // import Footer from "../Components/footer";
-import Footer from "../footer";
+// import Footer from "../footer";
+import Footer from "../Footer/footer";
 import Accordian from "./Accordian";
 // import Navbar from "../Components/Navbar";
-import Navbar from "../Navbar";
+// import Navbar from "../Navbar";
+import Navbar from "../Header/Navbar";
 
 const TERMANDCONDITION = () => {
   return (

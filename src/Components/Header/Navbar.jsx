@@ -2,11 +2,11 @@
 /* eslint-disable react/prop-types */
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import ImageHeart from "./Images/Nav/Union.svg";
-import ImageCart from "./Images/Nav/Group 2980.svg";
-import BellImage from "./Images/Nav/Bell_icon.svg";
-import Profile from "./Images/Nav/man.svg";
-// import NEXTHEADER from "./NextHeader";
+// import ImageHeart from "./Images/Nav/Union.svg";
+import ImageHeart from "./Images/Union.svg";
+import ImageCart from "./Images/Group 2980.svg";
+import BellImage from "./Images/Bell_icon.svg";
+import Profile from "./Images/man.svg";
 
 const Navbar = () => {
   const [showComponent, setshowComponent] = useState(false);

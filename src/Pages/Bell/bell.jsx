@@ -1,9 +1,11 @@
 // import { Footer } from "../footer";
 // import Footer from "../footer";
-import Footer from "../../Components/footer";
+// import Footer from "../../Components/footer";
 // import NAVBAR from "../Navbar";
 // import Navbar from "../Navbar";
-import Navbar from "../../Components/Navbar";
+// import Navbar from "../../Components/Navbar";
+import Navbar from "../../Components/Header/Navbar";
+import Footer from "../../Components/Footer/footer";
 export const Bell = () => {
   return (
     <>

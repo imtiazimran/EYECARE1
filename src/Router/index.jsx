@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import HOME from "../Pages/Home.jsx";
-// import HOME from "../Pages/Home/Home.jsx";
+
 import React from "react";
 import ABOUT from "../Pages/About/About.jsx";
 import CONTACT from "../Pages/Contact/Contact.jsx";
@@ -8,7 +8,6 @@ import { Bell } from "../Pages/Bell/bell.jsx";
 import { Cart } from "../Pages/Cart/cart.jsx";
 import WISHLIST from "../Pages/Wishlist/wishList.jsx";
 import PROFILE from "../Pages/PROFILE/Profile.jsx";
-import Navbar from "../Components/Navbar.jsx";
 
 import TERMANDCONDITION from "../Components/TermAndCondition/TermandCondition.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";

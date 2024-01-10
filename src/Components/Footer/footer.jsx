@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 /* eslint-disable react/prop-types */
-import Rayban from "./images/footer/image 59.png";
-import Calven from "./images/footer/image 60.png";
-import Titan from "./images/footer/image 61.png";
+import Rayban from "./images/image 59.png";
+import Calven from "./images/image 60.png";
+import Titan from "./images/image 61.png";
 
 const Footer = () => {
   return (
