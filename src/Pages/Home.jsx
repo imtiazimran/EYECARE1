@@ -1,8 +1,10 @@
 /* eslint-disable react-refresh/only-export-components */
-import Navbar from "../Components/Header/Navbar";
+
 import ShopNavigation from "../Components/Shopnav/shopnv";
-import { HeroImage } from "../Components/NextHeader";
+// import { HeroImage } from "../Components/NextHeader";
+import { HeroImage } from "./Home/Components/Herosection";
 import { Srk } from "../Components/card";
+
 import Card from "../Components/card";
 import { Middle } from "../Components/Cards";
 import { ScocialMediaInfluncer } from "../Components/card";
@@ -11,17 +13,15 @@ import { Popular } from "../Components/card";
 import { MobilePopular } from "../Components/card";
 import { MobileStyleMe } from "../Components/card";
 import { FooterImage } from "../Components/Cards";
-// import Footer from "../Components/footer";
-import Footer from "../Components/Footer/footer";
-import Isslider from "./Home/Components/Islider";
-// import Navbar from "../Components/Navbar";
 
+import Isslider from "./Home/Components/Islider";
+import { Outlet } from "react-router-dom";
 const HOME = () => {
   return (
     <>
       <div className="z-0">
         <div>
-          <Navbar />
+          <Outlet />
           <ShopNavigation />
           <HeroImage />
           <Isslider />
@@ -34,7 +34,6 @@ const HOME = () => {
           <Trending />
           <Popular />
           <FooterImage />
-          <Footer />
         </div>
       </div>
     </>

@@ -1,8 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
 
-// import Navbar from "../../Components/Navbar";
-import Navbar from "../../Components/Header/Navbar";
-// import ShopNavigation from "../../Components/shopnv";
 import ShopNavigation from "../../Components/Shopnav/shopnv";
 import FIRST from "./Images/First.png";
 
@@ -24,16 +21,11 @@ import { TeamMember } from "./Components/TeamMember";
 
 import { Hering } from "./Components/Heiring";
 
-// import { JobCategories } from "../../Components/card";
 import { JobCategories } from "./Components/Jobcategoery";
-
-// import Footer from "../../Components/footer";
-import Footer from "../../Components/Footer/footer";
 
 const ABOUT = () => {
   return (
     <>
-      <Navbar />
       <ShopNavigation />
       <div className=" hidden sm:block ">
         <hr className="  bg-black" />
@@ -122,7 +114,6 @@ const ABOUT = () => {
           <Hering />
           <JobCategories />
         </div>
-        <Footer />
       </div>
     </>
   );

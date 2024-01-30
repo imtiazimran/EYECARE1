@@ -1,12 +1,12 @@
 /* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
-/* eslint-disable react-refresh/only-export-components */
 
-import Man from "./Images/Slide/Rectangle 2805.png";
+import Man from "../Images/Hero/Rectangle 2805.png";
 
-import Girl from "./Images/Slide/Rectangle 2807.png";
+import Girl from "../Images/Hero/Rectangle 2807.png";
+
 import { Link } from "react-router-dom";
-import { StyleMebtn } from "./Butttons/button";
+
+import { StyleMebtn } from "../../../Components/Butttons/button";
 
 export const HeroImage = () => {
   return (

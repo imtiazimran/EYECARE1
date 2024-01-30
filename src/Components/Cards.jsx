@@ -1,7 +1,7 @@
 /* eslint-disable react-refresh/only-export-components */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-import "./card.css";
+
 import { AddtoCart } from "./Butttons/button";
 import { FaFilter } from "react-icons/fa";
 import { CiHeart } from "react-icons/ci";
@@ -32,7 +32,7 @@ export const Middle = () => {
     <>
       <div
         className="sm:w-full  relative  p-1 sm:pl-3 sm:pt-3 middle-image   hidden 
-       sm:block border border-red-700  md:h-[25vh] lg:h-[40vh]
+       sm:block border border-red-700  md:h-[30vh] lg:h-[45vh]
       "
       >
         <div>
@@ -44,7 +44,7 @@ export const Middle = () => {
         </div>
         <div className="  absolute  h-full   right-[25%]  left-[25%] bottom-0 text-center   flex flex-col justify-center items-center italic ">
           <h1
-            className="  sm:text-4xl  middletext  text-xl  italic   
+            className="  sm:text-3xl  middletext  text-xl  italic   
           sm:w-[70%] font-semibold sm:font-extrabold "
           >
             Unlock Your Unique Style

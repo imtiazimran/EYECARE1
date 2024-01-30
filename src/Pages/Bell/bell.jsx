@@ -1,17 +1,24 @@
-// import { Footer } from "../footer";
-// import Footer from "../footer";
-// import Footer from "../../Components/footer";
-// import NAVBAR from "../Navbar";
-// import Navbar from "../Navbar";
-// import Navbar from "../../Components/Navbar";
-import Navbar from "../../Components/Header/Navbar";
-import Footer from "../../Components/Footer/footer";
+import { useState } from "react";
+
+import ShopNavigation from "../../Components/Shopnav/shopnv";
+// import bell from "./image 41.png";
+import EmptyNotification from "./Components/Nonotification";
+import { Notification } from "./Components/Notification";
 export const Bell = () => {
+  // eslint-disable-next-line no-unused-vars
+  const [isOpen, setIsOpen] = useState(true);
+
   return (
     <>
-      <Navbar />
-      <h1 className="text-3xl text-center   ">This is an our bell Section </h1>
-      <Footer />
+      <ShopNavigation />
+
+      <hr className="  h-[2px] bg-gray-500 blur-[1px]" />
+      <div
+        className=" 
+p-2"
+      >
+        {isOpen ? <EmptyNotification /> : <Notification />}
+      </div>
     </>
   );
 };

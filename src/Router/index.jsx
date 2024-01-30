@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+import MainLayout from "../Layout/MainLayout.jsx";
 import HOME from "../Pages/Home.jsx";
 
 import React from "react";
@@ -14,21 +15,25 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { RiH1 } from "react-icons/ri";
 
 import ErrorPage from "../Components/Error/Error.jsx";
+import EyeGlass from "../Components/EyeGlasses/EyeGlass.jsx";
 function Routers() {
   return (
     <>
       <div>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<HOME />} />
-            <Route path="/about" element={<ABOUT />} />
-            <Route path="/contact" element={<CONTACT />} />
+            <Route path="/" element={<MainLayout />}>
+              <Route path="/" element={<HOME />} />
+              <Route path="/about" element={<ABOUT />} />
+              <Route path="/contact" element={<CONTACT />} />
+              <Route path="/bell" element={<Bell />} />
+              <Route path="/cart" element={<Cart />} />
+              <Route path="/wishList" element={<WISHLIST />} />
+              <Route path="/userProfile" element={<PROFILE />} />
+              <Route path="/Condition" element={<TERMANDCONDITION />} />
+              <Route path="/Eyeglass" element={<EyeGlass />} />
+            </Route>
 
-            <Route path="/bell" element={<Bell />} />
-            <Route path="/cart" element={<Cart />} />
-            <Route path="/wishList" element={<WISHLIST />} />
-            <Route path="/userProfile" element={<PROFILE />} />
-            <Route path="/Condition" element={<TERMANDCONDITION />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
         </BrowserRouter>

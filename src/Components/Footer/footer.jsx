@@ -63,9 +63,9 @@ const Footer = () => {
               <Link to={"/About"}> About Us</Link>
             </p>
             <div className="flex">
-              <a href="">
+              <Link to={"/About"}>
                 <p className="mr-1 text-gray-800">{`we're Hiring `}</p>
-              </a>
+              </Link>
             </div>
             <div className="flex">
               <p className="mr-1 text-gray-800">
@@ -73,14 +73,8 @@ const Footer = () => {
               </p>
             </div>
 
-            <div
-              className="flex"
-              onClick={(e) => {
-                e.preventDefault();
-                console.log("Afzal khan");
-              }}
-            >
-              <p className="mr-1 text-gray-800">
+            <div className="flex T&C ">
+              <p className="mr-1 text-gray-800 ">
                 <Link to={"/Condition"}>Term & condition </Link>
               </p>
             </div>

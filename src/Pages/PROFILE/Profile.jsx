@@ -1,21 +1,14 @@
 /* eslint-disable react-refresh/only-export-components */
-// import { FaPen } from "react-icons/fa6";
-// import { RiDeleteBin6Line } from "react-icons/ri";
+import { NavLink } from "react-router-dom";
 import { IoMdAdd } from "react-icons/io";
 import "./Profile.css";
-// import Navbar from "../../Components/Navbar";
-import Navbar from "../../Components/Header/Navbar";
 
-// import Footer from "../../Components/footer";
-import Footer from "../../Components/Footer/footer";
-// import ShopNavigation from "../../Components/shopnv";
 import ShopNavigation from "../../Components/Shopnav/shopnv";
 import UserProfileCard from "./Components/Profilecard";
 import UserAddressCard from "./Components/Useradrees";
 const PROFILE = () => {
   return (
     <>
-      <Navbar />
       <ShopNavigation />
       <div
         className=" 
@@ -26,29 +19,29 @@ const PROFILE = () => {
             className=" bg-white w-[25%]  mr-3 text-center profile-card   text-xl  
            "
           >
-            <li className=" p-4 card-text ">
-              <a href="#">My Profile</a>
+            <li className="  card-text ">
+              <NavLink href="#"> My Profile</NavLink>
             </li>
             <hr />
 
-            <li className="p-4 card-text ">
-              <a href="#">Whishlist </a>
+            <li className=" card-text ">
+              <NavLink to={"/wishList"}>Whishlist</NavLink>
             </li>
             <hr />
-            <li className="p-4 card-text ">
-              <a href="#">Offers</a>
+            <li className=" card-text ">
+              <NavLink href="#">Offers</NavLink>
             </li>
             <hr />
-            <li className="p-4 card-text ">
-              <a href="#">Payments</a>
+            <li className=" card-text ">
+              <NavLink href="#">Payments</NavLink>
             </li>
             <hr />
-            <li className="p-4 card-text ">
-              <a href="#">My Orders</a>
+            <li className=" card-text ">
+              <NavLink href="#">My Orders</NavLink>
             </li>
             <hr />
-            <li className="p-4 card-text ">
-              <a href="#">Logout</a>
+            <li className=" card-text ">
+              <NavLink href="#">Logout</NavLink>
             </li>
           </ul>
 
@@ -69,7 +62,7 @@ const PROFILE = () => {
             >
               <div className="mb-2 flex justify-between">
                 <span className="font-semibold text-xl ">My Address</span>
-                <span className=" flex border border-red-300 justify-center items-center font-semibold text-xl">
+                <span className=" flex justify-center items-center font-semibold text-xl mr-[3%]">
                   <IoMdAdd />
                   <p>Add New Address</p>
                 </span>
@@ -80,8 +73,6 @@ const PROFILE = () => {
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 };

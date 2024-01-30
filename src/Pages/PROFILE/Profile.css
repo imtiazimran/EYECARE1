@@ -3,6 +3,17 @@
      color: red;
      height: 45%;
      flex-shrink: 0;
+     /* font-weight: 900; */
 
 
+ }
+
+ .card-text {
+     padding: 16px;
+     font-weight: 900;
+
+ }
+
+ .active {
+     color: red;
  }

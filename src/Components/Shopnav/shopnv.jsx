@@ -1,5 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/prop-types */
+import { NavLink } from "react-router-dom";
 import Camera from "./Images/Group 3154.svg";
 // eslint-disable-next-line no-unused-vars
 const ShopNavigation = () => {
@@ -18,72 +19,78 @@ const ShopNavigation = () => {
                   console.log("EYEGLASS");
                 }}
               >
-                <a href="#" className="  hover:text-gray-300">
+                <NavLink to={"/Eyeglass"} className="  hover:text-gray-300">
                   EYEGLASS
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="#"
+                <NavLink
+                  to={"/Sunglass"}
                   className="hover:text-gray-300"
                   onClick={() => {
                     console.log("SUNGLASSES");
                   }}
                 >
                   SUNGLASSES
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="#"
+                <NavLink
+                  to={"/ComputerGlasses"}
                   className="hover:text-gray-300"
                   onClick={() => {
                     console.log("COMPUTERGLASS");
                   }}
                 >
                   COMPUTER GLASSES
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="#"
+                <NavLink
+                  to={"/ContactLens"}
                   onClick={() => {
                     console.log("CONTACTLENS");
                   }}
                   className="hover:text-gray-300"
                 >
                   CONTACT LENS
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="#"
+                <NavLink
+                  to={"/PowerdGlasses"}
                   className="hover:text-gray-300"
                   onClick={() => {
                     console.log("POWERDGLASSES");
                   }}
                 >
                   POWERD GLASSES
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="#"
+                <NavLink
+                  to={"/ccessories"}
                   className=" hover:text-gray-300"
                   onClick={() => {
                     console.log("ACCESSSORIES");
                   }}
                 >
                   ACCESSSORIES
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a href="#" className=" hover:text-gray-300 font-bold">
+                <NavLink
+                  to={"/luxe"}
+                  className=" hover:text-gray-300 font-bold"
+                >
                   LUXE
-                </a>
+                </NavLink>
               </li>
-              <li className=" flex">
-                <a href="/" className="hover:text-gray-300 flex    w-full">
+              <NavLink className=" flex">
+                <span
+                  href={"TryOn"}
+                  className="hover:text-gray-300 flex    w-full"
+                >
                   <button
                     className=" bg-red-300 px-2   rounded-md   w-auto font-bold"
                     onClick={() => {
@@ -99,8 +106,8 @@ const ShopNavigation = () => {
                     alt="Description of the image"
                     className=" sm:ml-5 ml-2"
                   />
-                </a>
-              </li>
+                </span>
+              </NavLink>
             </ul>
           </div>
         </div>

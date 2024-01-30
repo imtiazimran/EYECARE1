@@ -1,0 +1,28 @@
+.discount-card {
+    color: #35A39F;
+    font-family: Poppins;
+    /* font-size: 20px; */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Explore-New {
+    color: #FF0D9E;
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Tropology {
+    color: #000;
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 050;
+    line-height: normal;
+}

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&family=Roboto:ital,wght@1,900&display=swap');
+
+
+.Hero {
+    max-width: 576.001px;
+    max-height: 576px;
+    flex-shrink: 0;
+    background-color: #FFC8D0;
+}
+
+.hero-text {
+    color: #000;
+
+    font-family: Poppins;
+    /* font-size: 30px; */
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero-text1 {
+    color: #000;
+
+    text-align: center;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.myObject {
+    transform: translateZ(100px);
+
+}
+
+.text {
+    color: #000;
+    background: #CEE9E7;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+
+
+
+    letter-spacing: -0.32px;
+    padding: 5px;
+    max-width: 1728px;
+    max-height: 99.833px;
+    flex-shrink: 0;
+
+}
+
+.WishList-item {
+    color: #000;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    /* 75% */
+    letter-spacing: -0.32px;
+}
+
+.WishList-Cart {
+    padding: 20px;
+}
+
+.Shorting {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+
+}
+
+.Recommend {
+    font-family: Poppins;
+    /* font-size: 32px; */
+    font-weight: 900;
+    line-height: 21px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+
+}
+
+.low {
+    font-family: Poppins;
+    /* font-size: 24px; */
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+
+}
+
+.filter {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.filterOpacity {
+    opacity: 0.5;
+
+}
+
+
+.short {
+    font-weight: 600;
+}
+
+.option {
+    font-weight: 600;
+}
+
+.filterOption {
+    color: #000;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Poppins;
+    /* font-size: 24px; */
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: 21px; */
+    /* 87.5% */
+    letter-spacing: -0.32px;
+    background-color: #D9D9D9;
+
+}
+
+.filtersingle {
+    padding: 20px;
+}
+
+.filtersingle:hover {
+    background-color: white;
+}
+
+.addtobagpadding {
+    padding: 10px;
+    font-weight: 600;
+}
+
+.priceAndrating {
+    font-weight: 500;
+}
