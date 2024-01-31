@@ -1,0 +1,17 @@
+.card-image {
+
+    display: flex;
+
+}
+
+.card {
+
+
+    max-width: 350px;
+
+}
+
+.app {
+
+    scrollbar-width: none;
+}

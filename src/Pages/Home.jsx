@@ -1,20 +1,26 @@
 /* eslint-disable react-refresh/only-export-components */
 
 import ShopNavigation from "../Components/Shopnav/shopnv";
-// import { HeroImage } from "../Components/NextHeader";
-import { HeroImage } from "./Home/Components/Herosection";
-import { Srk } from "../Components/card";
 
-import Card from "../Components/card";
-import { Middle } from "../Components/Cards";
-import { ScocialMediaInfluncer } from "../Components/card";
-import { Trending } from "../Components/card";
-import { Popular } from "../Components/card";
+import { HeroImage } from "./Home/Components/Herosection";
+
+import { Srk } from "./Home/Components/Cards";
+
+import Card from "./Home/Components/Cards";
+
+import { Style } from "./Home/Components/StyleMe";
+
+import { ScocialMediaInfluncer } from "./Home/Components/Cards";
+
+import { Trending } from "./Home/Components/Cards";
+
+import { Popular } from "./Home/Components/Cards";
 import { MobilePopular } from "../Components/card";
 import { MobileStyleMe } from "../Components/card";
 import { FooterImage } from "../Components/Cards";
 
 import Isslider from "./Home/Components/Islider";
+
 import { Outlet } from "react-router-dom";
 const HOME = () => {
   return (
@@ -26,7 +32,7 @@ const HOME = () => {
           <HeroImage />
           <Isslider />
           <Card />
-          <Middle />
+          <Style />
           <Srk />
           <MobileStyleMe />
           <MobilePopular />

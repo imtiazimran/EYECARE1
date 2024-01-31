@@ -17,6 +17,8 @@ const WISHLIST = () => {
     <>
       <div>
         <ShopNavigation />
+        {/* <AddToBag /> */}
+
         <div className=" hidden sm:block">
           <div className=" hidden sm:flex relative m-[1vw]">
             <img
@@ -53,7 +55,7 @@ const WISHLIST = () => {
 
           <div
             className=" mt-[2%] bg-white
-      hidden sm:block w-[97%]"
+      hidden sm:block w-[97%] "
           >
             <div className=" flex  align   text-2xl justify-evenly  w-full p-3   filter relative ">
               <div className="flex w-[28%]">
@@ -85,7 +87,8 @@ const WISHLIST = () => {
             </div>
 
             <div className="   ">
-              <div className="">
+              {/* FILTER IS START HERE  */}
+              <div className=" bg-red-500">
                 {isOpen && (
                   <div
                     className=" mb-3 absolute z-20 bg-white 
@@ -137,7 +140,9 @@ const WISHLIST = () => {
               <AddToBag />
             </div>
           </div>
+          {/* <AddToBag /> */}
         </div>
+        {/* <AddToBag /> */}
       </div>
     </>
   );
