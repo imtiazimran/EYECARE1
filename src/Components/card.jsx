@@ -16,6 +16,7 @@ export const MobileStyleMe = () => {
     </>
   );
 };
+
 export const MobilePopular = () => {
   const cardData = [
     {

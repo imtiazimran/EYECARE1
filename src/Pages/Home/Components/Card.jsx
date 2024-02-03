@@ -33,7 +33,7 @@ export const POPULATPRODUCT = ({ name, imageUrl, rate }) => {
 export const SelectionCard = ({ name, imageUrl }) => {
   return (
     <div
-      className=" sm:m-3  m-1 
+      className="  sm:m-3  m-1  Selection-card
     inline-block  p-3 cursor-pointer hover:scale-105 ease-in-out duration-300   "
     >
       <img src={imageUrl} alt={name} className="card-image  " />

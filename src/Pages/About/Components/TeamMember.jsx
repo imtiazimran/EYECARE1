@@ -55,7 +55,7 @@ export const TeamMember = () => {
         <p className="font-bold italic text-center mt-[5%] ">
           Our Team Members{" "}
         </p>
-        <div className="app   grid-cols-3  grid mt-[5%] ">
+        <div className="  grid-cols-3  grid mt-[5%] ">
           {cardData.map((card) => (
             <INTROOURTEAM
               key={card.id}

@@ -44,3 +44,13 @@ export const ApplyFilter = () => {
     </>
   );
 };
+
+export const StartScanning = () => {
+  return (
+    <>
+      <button className="Scanningbtn text-white px-10  py-2 rounded-full mt-3">
+        Start
+      </button>
+    </>
+  );
+};

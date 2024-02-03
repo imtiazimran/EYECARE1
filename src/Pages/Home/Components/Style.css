@@ -5,13 +5,29 @@
 }
 
 .card {
-
-
-    max-width: 350px;
+    max-width: 28%;
 
 }
 
 .app {
 
     scrollbar-width: none;
+}
+
+.selection-app {
+    scrollbar-width: none;
+    display: flex;
+
+
+}
+
+.Selection-card {
+
+    max-width: 28%;
+    display: flex;
+
+}
+
+.Style {
+    width: 90%;
 }

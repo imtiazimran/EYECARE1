@@ -27,7 +27,7 @@ const Card = () => {
   ];
 
   return (
-    <div className="app  flex  mt-6  sm:mt-20 ">
+    <div className="selection-app  flex  mt-6  sm:mt-20  justify-evenly">
       {cardData.map((card) => (
         <SelectionCard
           key={card.id}

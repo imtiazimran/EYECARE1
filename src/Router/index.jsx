@@ -16,6 +16,7 @@ import { RiH1 } from "react-icons/ri";
 
 import ErrorPage from "../Components/Error/Error.jsx";
 import EyeGlass from "../Components/EyeGlasses/EyeGlass.jsx";
+import { StyleMe } from "../service/StyleMe/StyleMe.jsx";
 function Routers() {
   return (
     <>
@@ -32,6 +33,7 @@ function Routers() {
               <Route path="/userProfile" element={<PROFILE />} />
               <Route path="/Condition" element={<TERMANDCONDITION />} />
               <Route path="/Eyeglass" element={<EyeGlass />} />
+              <Route path="/StyleMe" element={<StyleMe />} />
             </Route>
 
             <Route path="*" element={<ErrorPage />} />

@@ -1,12 +1,14 @@
 import Girl from "./imgae/image 54.png";
 import Women from "./imgae/image 55.png";
+import { Link } from "react-router-dom";
+import "./Style.css";
 
 export const Style = () => {
   return (
     <>
       <div
-        className="sm:w-full  relative  p-1 sm:pl-3 sm:pt-3 middle-image   hidden 
-         sm:block border border-red-700  md:h-[30vh] lg:h-[45vh]
+        className="sm:w-full  relative  p-5 sm:pl-3 sm:pt-3  Style  middle-image   hidden 
+         sm:block border border-red-700  md:h-[40vh] lg:h-[50vh] 
         "
       >
         <div>
@@ -27,7 +29,7 @@ export const Style = () => {
             </p>
             <button className="  stylebtn    sm:mt-9   text-sm  sm:px-6 sm:py-3 ">
               {" "}
-              Style Me
+              <Link to={"Styleme"}> Style Me</Link>
             </button>
           </h1>
         </div>

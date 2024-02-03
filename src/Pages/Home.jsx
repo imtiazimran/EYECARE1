@@ -2,7 +2,7 @@
 
 import ShopNavigation from "../Components/Shopnav/shopnv";
 
-import { HeroImage } from "./Home/Components/Herosection";
+import { HeroImage } from "./Home/Components/HeroSection";
 
 import { Srk } from "./Home/Components/Cards";
 
@@ -17,7 +17,8 @@ import { Trending } from "./Home/Components/Cards";
 import { Popular } from "./Home/Components/Cards";
 import { MobilePopular } from "../Components/card";
 import { MobileStyleMe } from "../Components/card";
-import { FooterImage } from "../Components/Cards";
+
+import { FooterImage } from "./Home/Components/FooterVideo";
 
 import Isslider from "./Home/Components/Islider";
 

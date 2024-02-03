@@ -5,7 +5,6 @@
 import { AddtoCart } from "./Butttons/button";
 import { FaFilter } from "react-icons/fa";
 import { CiHeart } from "react-icons/ci";
-import Testimonial from "./images/footer/Testimonial.png";
 
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { IoMdTime } from "react-icons/io";
@@ -16,15 +15,5 @@ export const POPULARPRODUCTMOBILE = ({ name, imageUrl, rate }) => {
       <img src={imageUrl} alt={name} className="card-image " />
       <p className="text-xs">{name}</p>
     </div>
-  );
-};
-
-export const FooterImage = () => {
-  return (
-    <>
-      <div className=" hidden sm:block">
-        <img src={Testimonial} alt="" />
-      </div>
-    </>
   );
 };
