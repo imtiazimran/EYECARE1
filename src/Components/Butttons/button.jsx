@@ -1,11 +1,13 @@
 import "./buttons.css";
-
+import { Link } from "react-router-dom";
 export const StyleMebtn = () => {
   return (
     <>
-      <button className="stylebtn hover:bg-brown-700 mt-6 ml-4 w-[44%]  h-10">
-        Shop Now
-      </button>
+      <Link to={"Eyeglass"}>
+        <button className="stylebtn hover:bg-brown-700 mt-6 ml-4 w-[44%]  h-10">
+          Shop Now
+        </button>
+      </Link>
     </>
   );
 };

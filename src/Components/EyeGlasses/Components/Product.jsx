@@ -1,12 +1,25 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-
-import { AddtoCart } from "../../../Components/Butttons/button";
+import { Link } from "react-router-dom";
+import { AddtoCart } from "../../Butttons/button";
 import { CiHeart } from "react-icons/ci";
-
-export const AddTobag_item = ({ image, name, size, star, review, price }) => {
+// import { Link } from "react-router-dom";
+export const Product = ({
+  id,
+  image,
+  name,
+  size,
+  star,
+  review,
+  price,
+  onClick,
+}) => {
   return (
     <>
-      <div className="WishList-item bg-white  w-[30vw] mt-4 relative hidden sm:block border    border-red-300 rounded-lg  ">
+      <div
+        className="WishList-item bg-white  w-[30vw] mt-4 relative hidden sm:block border    border-red-300 rounded-lg  "
+        onClick={onClick}
+      >
         <img src={image} alt="" className="w-[80%] flex justify-center" />
         <p className=" font-semibold addtobagpadding ">{name}</p>
         <p className=" mt-4 ">
