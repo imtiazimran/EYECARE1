@@ -136,7 +136,7 @@ const WISHLIST = () => {
                   </div>
                 )}
               </div>
-              <ProductsDetails />
+              <ProductList/>
             </div>
           </div>
         </div>

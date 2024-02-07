@@ -38,7 +38,7 @@ function Routers() {
 
               <Route path="/Eyeglass" element={<EyeGlass />} />
 
-              <Route path="/ProductDetail" element={<ProductsDetails />} />
+              <Route path="/ProductDetail/:id" element={<ProductsDetails />} />
 
               <Route path="/StyleMe" element={<StyleMe />} />
             </Route>

@@ -1,6 +1,6 @@
 import ShopNavigation from "../../Components/Shopnav/shopnv";
 import { Identity } from "./Comonents/Crads";
-import "./style.css";
+// import "./style.css";
 import { Features } from "./Comonents/Card";
 export const StyleMe = () => {
   return (

@@ -11,15 +11,14 @@ export const Product = ({
   size,
   star,
   review,
-  price,
-  onClick,
+  price
 }) => {
   return (
     <>
       <div
         className="WishList-item bg-white  w-[30vw] mt-4 relative hidden sm:block border    border-red-300 rounded-lg  "
-        onClick={onClick}
       >
+        <Link to={`/ProductDetail/${id}`}>
         <img src={image} alt="" className="w-[80%] flex justify-center" />
         <p className=" font-semibold addtobagpadding ">{name}</p>
         <p className=" mt-4 ">
@@ -34,6 +33,7 @@ export const Product = ({
           <CiHeart className=" w-[50%] flex justify-center  mt-4  hover:text-red-800" />
           <AddtoCart className="w-[50%] " />
         </div>
+        </Link>
       </div>
     </>
   );
